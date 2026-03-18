@@ -2994,11 +2994,11 @@ px-4 sm:px-6 overflow-hidden">
 
 
 
-
+{/* 
      <div className="flex justify-center">
   <div className="bg-white/10 backdrop-blur-xl border border-emerald-500 rounded-full flex p-1">
 
-    {/* INDIAN – SAME PAGE */}
+    
     <button
       onClick={() => setPricingType("india")}
       className={`px-6 py-2 rounded-full text-sm transition-all cursor-pointer ${
@@ -3010,7 +3010,7 @@ px-4 sm:px-6 overflow-hidden">
       Indian
     </button>
 
-    {/* INTERNATIONAL – REDIRECT */}
+    
     <button
       onClick={() => navigate("/whatsapp-business-api-international")}
       className="px-6 py-2 rounded-full text-sm transition-all cursor-pointer text-black hover:text-black"
@@ -3019,14 +3019,14 @@ px-4 sm:px-6 overflow-hidden">
     </button>
 
   </div>
-</div>
+</div> */}
 
 
 
 
 
 {pricingType === "india" && (
- <div id="pricing" className="w-full py-5 px-6 md:px-16 text-white mb-5">
+ <div id="pricing" className="w-full  px-6 md:px-16 text-white mb-5">
 
       {/* Heading */}
       <h2 className="text-center text-3xl md:text-4xl font-bold bg-gradient-to-br from-emerald-500 to-emerald-300 bg-clip-text text-transparent animate-fadeUp">

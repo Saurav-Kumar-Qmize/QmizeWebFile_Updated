@@ -202,6 +202,7 @@ const Footer = () => {
         <Link to="/about"><li className=" cursor-pointer hover:text-white transition">About Us</li></Link>
         <Link to="/contact-us"><li className=" cursor-pointer hover:text-white transition">Contact Us</li></Link>
         <Link to="/whatsapp-business-api"><li className="cursor-pointer hover:text-white transition">Whatsapp Business API</li></Link>
+        <Link to="/whatsapp-business-api-international"><li className="cursor-pointer hover:text-white transition">Whatsapp Business API International</li></Link>
         <Link to="/website-development-company-and-digital-agency"><li className="cursor-pointer hover:text-white transition">Website Development</li></Link>
         <Link to="/bulk-sms-services"><li className="cursor-pointer hover:text-white transition">Bulk SMS</li></Link>
         <Link to="/seo-services"><li className="cursor-pointer hover:text-white transition">Search Engine Optimization</li></Link>

@@ -353,3 +353,10 @@ body{
 
 
 
+.goog-te-gadget select {
+  background-color: #065f46 !important; /* emerald-900 */
+  color: white !important;
+  border-radius: 6px;
+  padding: 4px 8px;
+  border: none;
+}

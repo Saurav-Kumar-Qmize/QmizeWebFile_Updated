@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import GoogleTranslate from "../../GoogleTranslate";
 
 import { Menu, ArrowRight, Sun, Moon } from "lucide-react";
 
@@ -68,6 +69,11 @@ export default function TopBanner() {
 
       {/* Right: Menu + Theme Toggle */}
       <div className="flex items-center gap-2 relative">
+
+
+        <div className="h-[33px] text-white">
+  <GoogleTranslate />
+</div>
         {/* Theme Toggle Button */}
         <button
           onClick={() => setDarkMode(!darkMode)}

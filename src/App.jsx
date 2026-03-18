@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Loader from "./Components/Common/Loader";
 import ScrollToTop from "./Components/ScrolltoTop";
 
+
 import Home from "./Components/Pages/Home";
 import About from "./Components/Pages/About";
 import APIwithLoader from "./Components/WhatsAppAPIFiles/APIwithLoader";
@@ -111,6 +112,7 @@ const AppRoute = () => {
 
   return (
     <BrowserRouter>
+   
      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />

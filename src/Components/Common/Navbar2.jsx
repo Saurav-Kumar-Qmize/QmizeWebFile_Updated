@@ -36,9 +36,35 @@ import Logo from "../../assets/Icons/newlogo.png";
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mobileOpenMenu, setMobileOpenMenu] = useState(null);
+  const [pricingRoute, setPricingRoute] = useState("/whatsapp-business-api");
 
   const [hoveredMenu, setHoveredMenu] = useState(null);
   const [isHoveringSubmenu, setIsHoveringSubmenu] = useState(false);
+
+
+  useEffect(() => {
+  const detectCountry = async () => {
+    try {
+      const res = await fetch("https://ipapi.co/json/");
+      const data = await res.json();
+    console.log("Detected country:", data.country);
+      if (data.country === "IN") {
+        setPricingRoute("/whatsapp-business-api");
+      } else {
+        setPricingRoute("/whatsapp-business-api-international");
+      }
+    } catch (err) {
+      console.error("Geo detection failed", err);
+      // fallback
+      // setPricingRoute("/whatsapp-business-api");
+    }
+  };
+
+  detectCountry();
+}, []);
+
+
+
 
   const navLinks = [
     { name: "Home" },
@@ -75,7 +101,7 @@ export default function Navbar() {
     {
       title: "Marketing Services",
       items: [
-       { title: "WhatsApp Business API", desc: "Customer messaging", icon: MessageCircle, link: "/whatsapp-business-api" },
+       { title: "WhatsApp Business API", desc: "Customer messaging", icon: MessageCircle, link: "dynamic-pricing" },
       { title: "Bulk SMS Services", desc: "Instant offers", icon: Zap, link: "/bulk-sms-services" },
       { title: "OTP SMS", desc: "Instant offers", icon: Zap, link: "/otp-sms-service-provider" },
       { title: "Transactional SMS ", desc: "Instant offers", icon: Zap, link: "/transactional-sms" },
@@ -292,7 +318,11 @@ export default function Navbar() {
           {section.items.map((item, i) => {
             const Icon = item.icon;
             return (
-              <Link to={item.link} key={i} className="block">
+             <Link
+  to={item.link === "dynamic-pricing" ? pricingRoute : item.link}
+  key={i}
+  className="block"
+>
                 <li className="flex gap-3 p-2 rounded-lg transition cursor-pointer
                   hover:bg-emerald-100/70">
 
