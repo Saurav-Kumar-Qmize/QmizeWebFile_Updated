@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+
+
+body{
+    font-family: 'Familjen Grotesk' , sans-serif;
+}
+
+
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  display: inline-block;
+  animation: marquee 8s linear infinite;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-38px) scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+
+/* Yellow background */
+.highlight-bg {
+  position: absolute;
+  inset: 0;
+  /* background: #FFF2C7; */
+  background: hsl(108, 91%, 87%);
+  border-radius: 6px;
+  z-index: 1;
+}
+
+/* LEFT GREEN GRADIENT GLOW */
+.green-glow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;         /* same as image */
+  height: 100%;
+  background: linear-gradient(90deg, #4AFF4A 0%, rgba(74, 255, 74, 0) 100%);
+  z-index: 2;
+  border-radius: 6px 0 0 6px;
+}
+
+
+/* Floating Animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes floatSlow {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-floatSlow {
+  animation: floatSlow 4s ease-in-out infinite;
+}
+
+/* Fade & Slide Animations */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.animate-fadeInSlow {
+  animation: fadeIn 1.4s ease forwards;
+}
+
+@keyframes slideUp {
+  0% { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-slideUp {
+  animation: slideUp 1s ease forwards;
+}
+
+
+/* Smooth continuous scrolling effect */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 10s linear infinite;
+}
+
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s ease-out;
+}
+
+
+
+@keyframes slideDown {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-slideDown {
+  animation: slideDown 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.animate-fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeInUp {
+  animation: fadeInUp 0.7s ease-out forwards;
+}
+
+@keyframes smoothFade {
+  0% { opacity: 0; transform: scale(0.97); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.animate-smoothFade {
+  animation: smoothFade 0.5s ease-out;
+}
+
+@keyframes imagePop {
+  0% { opacity: 0; transform: scale(0.9); }
+  100% { opacity: 1; transform: scale(1); }
+}
+.animate-imagePop {
+  animation: imagePop 0.4s ease-out;
+}
+
+@keyframes slideRight {
+  0% { opacity: 0; transform: translateX(20px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+.animate-slideRight {
+  animation: slideRight 0.5s ease-out;
+}
+
+@keyframes tabBounce {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+.animate-tabBounce {
+  animation: tabBounce 0.3s ease-out;
+}
+
+@keyframes growWidth {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+.animate-growWidth {
+  animation: growWidth 0.4s ease-out;
+}
+
+@keyframes arrowMove {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(4px); }
+  100% { transform: translateX(0); }
+}
+.animate-arrowMove {
+  animation: arrowMove 1.2s infinite;
+}
+
+@keyframes pulse-slow {
+  0%,100% { opacity: 0.2; }
+  50% { opacity: 0.4; }
+}
+.animate-pulse-slow {
+  animation: pulse-slow 6s ease-in-out infinite;
+}
+
+
+
+@keyframes reviewScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-review-scroll {
+  animation: reviewScroll 20s linear infinite;
+}
+
+
+
+
+
+
+
+@keyframes numberRoll {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-numberRoll {
+  animation: numberRoll 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+/* Highlight Base */
+.ai-highlight {
+  border-radius: 14px;
+  isolation: isolate;
+}
+
+/* Background Gradient */
+.ai-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    rgba(34,197,94,0.12),
+    rgba(16,185,129,0.22),
+    rgba(34,197,94,0.12)
+  );
+  border-radius: 14px;
+  animation: aiPulse 4s ease-in-out infinite;
+}
+
+/* Glow Layer */
+.ai-glow {
+  position: absolute;
+  inset: -6px;
+  background: radial-gradient(
+    circle,
+    rgba(34,197,94,0.55),
+    transparent 65%
+  );
+  filter: blur(16px);
+  opacity: 0.6;
+  animation: glowBreath 5s ease-in-out infinite;
+  z-index: 0;
+}
+
+/* AI Scan Line */
+.ai-scan {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(34,197,94,0.7),
+    transparent
+  );
+  mix-blend-mode: screen;
+  animation: scanMove 3.5s linear infinite;
+  opacity: 0.35;
+}
+
+/* Text Reveal */
+@keyframes aiReveal {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.98);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+.animate-aiReveal {
+  animation: aiReveal 1.2s cubic-bezier(.25,.9,.35,1) forwards;
+}
+
+/* Background Pulse */
+@keyframes aiPulse {
+  0%, 100% { opacity: 0.65; }
+  50% { opacity: 1; }
+}
+
+/* Glow Breathing */
+@keyframes glowBreath {
+  0%, 100% { opacity: 0.45; }
+  50% { opacity: 0.85; }
+}
+
+/* Scan Movement */
+@keyframes scanMove {
+  0% { transform: translateX(-120%); }
+  100% { transform: translateX(120%); }
+}
+
+
+
+@keyframes bottomFlow {
+  0% {
+    transform: translateX(0);
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(200%);
+    opacity: 0.4;
+  }
+}
+
+.animate-bottomFlow {
+  animation: bottomFlow 6s linear infinite;
+}
+
+
+
