@@ -157,7 +157,7 @@ leading-[1.15] text-[#0f172a] tracking-tight overflow-hidden">
   className="inline-block"
 >
           <button className="cursor-pointer border border-green-700 px-6 sm:px-7 py-2.5 sm:py-1.5 rounded-full shadow font-semibold text-gray-800 hover:bg-gray-100 transition-all">
-            Book Demo
+            Book Demo Updated
           </button></a>
           
         </div>
