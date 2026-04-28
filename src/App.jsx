@@ -33,7 +33,7 @@ import WhatsappInter from "./Components/Pages/WhatsappInter";
 import UaePricing from "./Components/Pages/UaePricing";
 import WhatsAppLink from "./Components/Pages/WhatsAppLink";
 import AppMarket from "./Components/Pages/AppMarket";
-
+import WhatsAppQRCode from "./Components/Pages/WhatsAppQRCode";
 
 
 
@@ -71,6 +71,8 @@ import TwentysevenBlog from "./Components/Blogs/TwentysevenBlog";
 import TwentyeightBlog from "./Components/Blogs/TwentyEightBlog";
 import TwentynineBlog from "./Components/Blogs/TwentyNineBlog";
 import ThirtyBlog from "./Components/Blogs/ThirtyBlog";
+import ThirtyOneBlog from "./Components/Blogs/ThirtyOneBlog";
+import ThirtyTwoBlog from "./Components/Blogs/ThirtyTwoBlog";
 
 
 const LenisProvider = ({ children }) => {
@@ -196,7 +198,7 @@ const AppRoute = () => {
         <Route path="/enterprise-messaging-for-uae-businesses" element={<UaePricing />} />
         <Route path="/whatsapp-link-generator" element={<WhatsAppLink />} />
         <Route path="/whatsapp-business-api-integration" element={<AppMarket />} />
-
+         <Route path="/whatsapp-qr-code-generator" element={<WhatsAppQRCode />} />
         
 
         
@@ -232,8 +234,8 @@ const AppRoute = () => {
         <Route path="/blog/whatsapp-api-integration" element={<TwentyeightBlog/>}/>
         <Route path="/blog/whatsapp-business-description" element={<TwentynineBlog/>}/>
         <Route path="/blog/whatsapp-broadcast" element={<ThirtyBlog/>}/>
-
-
+        <Route path="/blog/whatsapp-blue-tick" element={<ThirtyOneBlog/>}/>   
+        <Route path="/blog/whatsapp-business-web-login-issues-fixes" element={<ThirtyTwoBlog/>}/>
 
 
         <Route path="*" element={<NotFound />} />

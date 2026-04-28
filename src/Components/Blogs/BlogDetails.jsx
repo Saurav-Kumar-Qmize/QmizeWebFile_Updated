@@ -32,9 +32,26 @@ import whatsappweb from "../../assets/Images/whatsappweb.png";
 import whatsapp28 from "../../assets/Images/whatsapp_api_28.jpg";
 import whatsapp29 from "../../assets/Images/whatsapp_description_29.jpg";
 import whatsapp30 from "../../assets/Images/whatsapp-description-30.jpg";
+import whatsapp31 from "../../assets/Images/whatsapp_description_31.jpeg";
+import whatsapp32 from "../../assets/Images/whatsapp_description_32.jpeg";
 
 const BlogDetails = () => {
   const blogs = [
+    {
+      id: 32,
+      title: "WhatsApp Business Web Login Issues and Fixes | Complete Troubleshooting Guide",
+      date: "Apr 18, 2026",
+      image: whatsapp32,
+      link: "/blog/whatsapp-business-web-login-issues-fixes"
+
+    },
+    {
+      id: 31,
+      title: "WhatsApp Blue Tick: How to Get Verified Tick on WhatsApp Business",
+      date: "Apr 18, 2026",
+      image: whatsapp31,
+      link: "/blog/whatsapp-blue-tick"
+    },
     {
       id: 30,
       title: "WhatsApp Broadcast: What It Is, How It Works & Business Guide (2026)",
@@ -336,11 +353,11 @@ const BlogDetails = () => {
                     />
 
                     {/* Image */}
-                    <div className="h-48  overflow-hidden relative z-10">
+                    <div className="h-48 -mt-3 overflow-hidden relative z-10">
                       <img
                         src={blog.image}
                         alt={blog.title}
-                        className="w-full h-full object-cover 
+                        className="w-full h-full object-contain 
                     group-hover:scale-110 transition-transform duration-700"
                       />
                     </div>

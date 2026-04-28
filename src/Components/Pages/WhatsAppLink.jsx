@@ -7,7 +7,19 @@ import { FaUserAlt, FaWhatsapp } from "react-icons/fa";
 import iphone from "../../assets/Images/iphone-mockup.png";
 import { Helmet } from "react-helmet";
 import { motion } from "framer-motion";
-
+import Linkgene from "../../assets/Images/Linkgene.jpeg";
+import Walink from "../../assets/Images/Walink.jpeg";
+import { MdKeyboardArrowDown } from "react-icons/md";
+import { MdKeyboardArrowUp } from "react-icons/md";
+import { MdOutlineShutterSpeed } from "react-icons/md";
+import { FaLink, FaShieldAlt, FaBolt , FaUserCheck, FaChartLine, FaRegCommentDots } from "react-icons/fa";
+import { 
+  FaGlobe, 
+  FaInstagram, 
+  FaBullhorn, 
+  FaEnvelope, 
+  FaQrcode 
+} from "react-icons/fa";
 const WhatsAppLink = () => {
 
    const countries = [
@@ -248,7 +260,7 @@ const WhatsAppLink = () => {
   const [text, settext] = useState("");
   const [link, setLink] = useState("");
   const [isVisible, setIsVisible] = useState(false);
-
+  const [openIndex, setOpenIndex] = useState(null);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -270,6 +282,86 @@ const WhatsAppLink = () => {
     setLink(url);
     setIsVisible(true);
   };
+   const faqs = [
+    {
+      q: "What is a WhatsApp link generator?",
+      a: "It is a tool that creates a clickable URL that opens a WhatsApp chat directly."
+    },
+    {
+      q: "Is the WhatsApp link generator free?",
+      a: "Yes, you can create unlimited WhatsApp links for free."
+    },
+    {
+      q: "Can I add a custom message?",
+      a: "Yes, you can add a pre-filled message to guide user conversations."
+    },
+    {
+      q: "Do users need to save my number?",
+      a: "No, users can start chatting directly without saving your number."
+    },
+    {
+      q: "Can I use it for business?",
+      a: "Absolutely. It’s ideal for sales, support, and marketing campaigns."
+    }
+  ];
+const features = [
+  {
+    text: "Fast & free link creation",
+    icon: <FaLink />,
+  },
+  {
+    text: "Secure and reliable tool",
+    icon: <FaShieldAlt />,
+  },
+  {
+    text: "Seamless marketing integration",
+    icon: <FaBullhorn />,
+  },
+  {
+    text: "Scalable for growing businesses",
+    icon: <FaChartLine />,
+  },
+];
+const feature = [
+  {
+    text: "Fast & free link creation",
+    icon: <FaLink />,
+  },
+  {
+    text: "Secure and reliable tool",
+    icon: <FaShieldAlt />,
+  },
+  {
+    text: "Seamless marketing integration",
+    icon: <FaBullhorn />,
+  },
+  {
+    text: "Scalable for growing businesses",
+    icon: <FaChartLine />,
+  },
+];
+const items = [
+  {
+    text: "Website “Chat with Us” buttons",
+    icon: <FaGlobe />,
+  },
+  {
+    text: "Instagram, Facebook, LinkedIn bios",
+    icon: <FaInstagram />,
+  },
+  {
+    text: "Google Ads & Meta Ads",
+    icon: <FaBullhorn />,
+  },
+  {
+    text: "Email signatures",
+    icon: <FaEnvelope />,
+  },
+  {
+    text: "Product packaging (QR codes)",
+    icon: <FaQrcode />,
+  },
+];
 
   return (
     <>
@@ -279,13 +371,187 @@ const WhatsAppLink = () => {
       <div className="min-h-screen bg-gradient-to-b from-green-100 to-green-200">
 
         <Helmet>
-          <title>WhatsApp Link Generator || Qmize</title>
+          <title>WhatsApp Link Generator – Create WhatsApp Link Instantly | Qmize</title>
           <meta
             name="description"
-            content="Create your personalized WhatsApp link with predefined message instantly."
+            content="Create a WhatsApp link instantly with
+             Qmize WhatsApp Link Generator. Generate click-to-chat WA links,
+              add custom messages, and boost customer engagement."
+          />
+          <meta
+          name="keywords"
+          content="WhatsApp link generator, create WhatsApp 
+          link, create WA link, WhatsApp link create, 
+          click to chat WhatsApp, wa.me link generator"
           />
         </Helmet>
+<section className="w-full bg-gradient-to-r from-green-100 via-white to-green-50 py-12 px-4 sm:px-6 lg:px-16">
+  <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-10">
+    
+    {/* LEFT TEXT CONTENT */}
+    <div className="w-full lg:w-1/2 text-center lg:text-left">
+      
+      <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black leading-tight">
+    <span className="text-green-600">WhatsApp</span> Link Generator
+      </h1>
 
+      <p className=" text-left mt-4 text-base sm:text-md text-black leading-relaxed max-w-xl mx-auto lg:mx-0">
+        Turn conversations into conversions with Qmize’s powerful WhatsApp link generator. 
+        Create a direct WhatsApp chat link in seconds and let your customers message you 
+        instantly without saving your number.
+      </p>
+
+      {/* CTA Button */}
+      <div className="mt-6 flex justify-center lg:justify-start">
+        <button  onClick={() => {
+      document.getElementById("link-generator")?.scrollIntoView({
+        behavior: "smooth",
+      });
+    }}
+     className="bg-green-600 hover:bg-green-700 flex items-center gap-2 text-white px-6 py-3 rounded-xl shadow-md transition duration-300 cursor-pointer">
+         
+         <BsWhatsapp className="text-2xl" /> Generate Link
+        </button>
+      </div>
+
+    </div>
+
+    {/* RIGHT IMAGE */}
+    <div className="w-full lg:w-1/2 flex justify-center">
+      <img
+        src={Linkgene} // replace with your image path
+        alt="WhatsApp Link Generator"
+        className="w-full max-w-md sm:max-w-lg object-contain"
+      />
+    </div>
+
+  </div>
+</section>
+
+<section className="w-full bg-gradient-to-r from-white via-green-50 to-green-100 py-14 px-4 sm:px-6 lg:px-16">
+  <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
+    
+    {/* LEFT IMAGE */}
+    <div className="w-full lg:w-1/2 flex justify-center">
+      <img
+        src={Walink} // replace with your image
+        alt="What is WhatsApp Link Generator"
+        className="w-full max-w-md sm:max-w-lg object-contain"
+      />
+    </div>
+
+    {/* RIGHT TEXT CONTENT */}
+    <div className="w-full lg:w-1/2 text-center lg:text-left">
+      
+      {/* HEADING */}
+      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black leading-tight relative inline-block">
+        What is a <span className="text-green-600">WhatsApp Link Generator?</span>
+        <span className="absolute left-0 -bottom-2 w-14 h-1 bg-gradient-to-r from-green-500 to-green-300 rounded-full"></span>
+      </h2>
+
+      {/* DESCRIPTION */}
+      <p className="mt-5 text-base sm:text-md text-black leading-relaxed">
+        A WhatsApp link generator is a tool that creates a clickable URL that opens a WhatsApp chat directly with your business. 
+        Clicking the link instantly redirects users to WhatsApp, pre-filling a message that simplifies communication.
+      </p>
+
+      <p className="mt-3 text-base sm:text-md text-black leading-relaxed">
+        No need to ask customers to save your number and type a message; a single click on the WhatsApp link starts the conversation.
+      </p>
+
+      <p className="mt-3 text-base sm:text-md text-black leading-relaxed">
+        This makes it easier to start conversations and improves customer experience.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+<section className="w-full bg-gradient-to-r from-green-50 via-white to-green-100 py-12 px-4 sm:px-6 lg:px-16">
+  <div className="max-w-6xl mx-auto text-center">
+    
+    {/* HEADING */}
+    <h2 className="text-2xl sm:text-2xl lg:text-3xl font-bold text-black leading-tight relative inline-block">
+      How to Create WhatsApp Link in 
+      <span className="text-green-600"> 3 Simple Steps</span>
+      <span className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-16 h-1 bg-gradient-to-r from-green-500 to-green-300 rounded-full"></span>
+    </h2>
+
+    {/* SUBTEXT */}
+    <p className="mt-4 text-black text-md max-w-2xl mx-auto">
+      Creating a WhatsApp link using Qmize is completely free. Just follow these simple steps and generate your link in seconds.
+    </p>
+
+    {/* STEPS */}
+<div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 z-40">
+
+  {/* STEP 1 */}
+  <div className="bg-white rounded-2xl p-6 text-left border border-green-100 
+  shadow-sm transform transition-all duration-300 
+  hover:scale-105 hover:-translate-y-2 hover:shadow-2xl">
+    
+    <div className="w-10 h-10 flex items-center justify-center rounded-full bg-green-100 text-green-600 font-bold">
+      1
+    </div>
+
+    <h3 className="mt-4 text-lg font-semibold text-black">
+      Enter your WhatsApp number
+    </h3>
+
+    <p className="mt-2 text-black text-sm leading-relaxed">
+      Add your country code and active WhatsApp number.
+    </p>
+  </div>
+
+  {/* STEP 2 */}
+  <div className="bg-white rounded-2xl p-6 text-left border border-green-100 
+  shadow-sm transform transition-all duration-300 
+  hover:scale-105 hover:-translate-y-2 hover:shadow-2xl">
+    
+    <div className="w-10 h-10 flex items-center justify-center rounded-full bg-green-100 text-green-600 font-bold">
+      2
+    </div>
+
+    <h3 className="mt-4 text-lg font-semibold text-black">
+      Add a custom message (optional)
+    </h3>
+
+    <p className="mt-2 text-black text-sm leading-relaxed">
+      Pre-fill messages like “Hi, I want to know more about your services.”
+    </p>
+  </div>
+
+  {/* STEP 3 */}
+  <div className="bg-white rounded-2xl p-6 text-left border border-green-100 
+  shadow-sm transform transition-all duration-300 
+  hover:scale-105 hover:-translate-y-2 hover:shadow-2xl">
+    
+    <div className="w-10 h-10 flex items-center justify-center rounded-full bg-green-100 text-green-600 font-bold">
+      3
+    </div>
+
+    <h3 className="mt-4 text-lg font-semibold text-black">
+      Generate your WhatsApp link
+    </h3>
+
+    <p className="mt-2 text-black text-sm leading-relaxed">
+      Copy and share your link anywhere instantly.
+    </p>
+  </div>
+
+</div>
+
+    {/* FOOT TEXT */}
+    <p className="mt-8 text-black text-md ">
+      That’s it! Your WhatsApp link is ready in just a few seconds.
+    </p>
+
+  </div>
+</section>
+
+
+    <section id="link-generator">
         {/* HERO */}
         <div className="text-center py-14 px-4">
           <h1 className="text-3xl sm:text-4xl font-bold text-green-700">
@@ -417,6 +683,323 @@ const WhatsAppLink = () => {
 
           </div>
         </div>
+</section>
+
+<section className="w-full bg-gradient-to-r from-white via-green-50 to-green-100 py-14 px-4 sm:px-6 lg:px-16">
+  <div className="max-w-6xl mx-auto text-center">
+
+    {/* HEADING */}
+    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black leading-tight relative inline-block">
+      Why Use the 
+      <span className="text-green-600"> Qmize WhatsApp Link Generator?</span>
+      <span className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-16 h-1 bg-gradient-to-r from-green-500 to-green-300 rounded-full"></span>
+    </h2>
+
+    {/* GRID */}
+<div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+  {[
+    {
+      title: "Instant Customer Connection",
+      desc: "Let users message you with one click, no friction, no delays.",
+      icon: <FaWhatsapp />,
+    },
+    {
+      title: "Boost Conversions",
+      desc: "Click-to-chat WhatsApp links drive more engagement and faster responses.",
+      icon: <FaBolt />,
+    },
+    {
+      title: "No Contact Saving Required",
+      desc: "Customers can start chatting without saving your number.",
+      icon: <FaUserCheck />,
+    },
+    {
+      title: "Pre-Filled Messages",
+      desc: "Guide users with ready-made messages to start conversations quickly.",
+      icon: <FaRegCommentDots />,
+    },
+    {
+      title: "Works Everywhere",
+      desc: "Use on websites, social media, ads, email campaigns, and QR codes.",
+      icon: <FaGlobe />,
+    },
+  ].map((item, i) => (
+    <div
+      key={i}
+      className="bg-white rounded-2xl p-6 border border-green-100 shadow-sm 
+      h-full flex  items-center flex-col gap-4
+      transform transition-all duration-300 hover:scale-105 hover:-translate-y-2 hover:shadow-xl"
+    >
+
+      {/* ICON */}
+      <div className="w-12 h-12 flex items-center justify-center rounded-full 
+      bg-green-100 text-green-600 text-xl">
+        {item.icon}
+      </div>
+
+      {/* TEXT */}
+      <div>
+        <h3 className="text-lg font-semibold text-black">
+          {item.title}
+        </h3>
+        <p className="mt-2 text-black text-sm leading-relaxed">
+          {item.desc}
+        </p>
+      </div>
+
+    </div>
+  ))}
+
+</div>
+  </div>
+</section>
+
+<section className="w-full bg-gradient-to-r from-green-50 via-white to-green-100 py-14 px-4 sm:px-6 lg:px-16">
+  <div className="max-w-6xl mx-auto text-center">
+
+    {/* HEADING */}
+    <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black leading-tight relative inline-block">
+      Powerful 
+      <span className="text-green-600"> Use Cases</span>
+      <span className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-16 h-1 bg-gradient-to-r from-green-500 to-green-300 rounded-full"></span>
+    </h2>
+
+    {/* SUBTEXT */}
+    <p className="mt-4 text-black text-base sm:text-lg max-w-2xl mx-auto">
+      WhatsApp links are widely used across industries to start real-time conversations and improve engagement.
+    </p>
+
+    {/* GRID */}
+    <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
+
+      {/* CARD 1 */}
+      <div className="bg-white rounded-2xl p-6 border border-green-100 shadow-sm 
+      h-full flex flex-col
+      transform transition-all duration-300 hover:scale-105 hover:-translate-y-2 hover:shadow-xl">
+        <h3 className="text-lg font-semibold text-black">
+          🛒 E-commerce & D2C
+        </h3>
+        <p className="mt-2 text-black text-sm leading-relaxed">
+          Convert visitors into buyers directly from product pages.
+        </p>
+      </div>
+
+      {/* CARD 2 */}
+      <div className="bg-white rounded-2xl p-6 border border-green-100 shadow-sm 
+      h-full flex flex-col
+      transform transition-all duration-300 hover:scale-105 hover:-translate-y-2 hover:shadow-xl">
+        <h3 className="text-lg font-semibold text-black">
+          🎓 Education & Coaching
+        </h3>
+        <p className="mt-2 text-black text-sm leading-relaxed">
+          Capture leads from courses and webinars instantly.
+        </p>
+      </div>
+
+      {/* CARD 3 */}
+      <div className="bg-white rounded-2xl p-6 border border-green-100 shadow-sm 
+      h-full flex flex-col
+      transform transition-all duration-300 hover:scale-105 hover:-translate-y-2 hover:shadow-xl">
+        <h3 className="text-lg font-semibold text-black">
+          🏥 Healthcare & Services
+        </h3>
+        <p className="mt-2 text-black text-sm leading-relaxed">
+          Enable appointment booking via WhatsApp.
+        </p>
+      </div>
+
+      {/* CARD 4 */}
+      <div className="bg-white rounded-2xl p-6 border border-green-100 shadow-sm 
+      h-full flex flex-col
+      transform transition-all duration-300 hover:scale-105 hover:-translate-y-2 hover:shadow-xl">
+        <h3 className="text-lg font-semibold text-black">
+          💼 B2B & SaaS
+        </h3>
+        <p className="mt-2 text-black text-sm leading-relaxed">
+          Generate leads and demo requests effortlessly.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section className="w-full bg-gradient-to-r from-white via-green-50 to-green-100 py-16 px-4 sm:px-6 lg:px-16">
+  <div className="max-w-6xl mx-auto">
+
+    {/* ================= BENEFITS ================= */}
+    <div className="text-center">
+      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black relative inline-block">
+        Benefits of Creating 
+        <span className="text-green-600"> WhatsApp Links</span>
+        <span className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-16 h-1 bg-gradient-to-r from-green-500 to-green-300 rounded-full"></span>
+      </h2>
+    </div>
+
+ <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+  {features.map((item, i) => (
+    <div
+      key={i}
+      className="bg-white rounded-2xl p-6 border border-green-100 shadow-sm text-center
+      h-full flex flex-col items-center justify-center
+      transform transition-all duration-300 hover:scale-105 hover:-translate-y-2 hover:shadow-xl"
+    >
+      {/* ICON */}
+      <div className="w-14 h-14 flex items-center justify-center rounded-full bg-green-100 text-green-600 text-2xl">
+        {item.icon}
+      </div>
+
+      {/* TEXT */}
+      <p className="mt-4 text-black text-sm sm:text-base font-medium">
+        {item.text}
+      </p>
+    </div>
+  ))}
+</div>
+
+    <p className="mt-6 text-center text-black text-sm sm:text-base max-w-2xl mx-auto">
+      A simple link removes friction and helps customers reach you faster than traditional contact forms.
+    </p>
+
+
+    {/* ================= WHERE TO USE ================= */}
+    <div className="mt-16 text-center">
+      <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-black">
+        Where to Use Your WhatsApp Link
+      </h2>
+    </div>
+
+   <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+  {items.map((item, i) => (
+    <div
+      key={i}
+      className="bg-white rounded-xl px-4 py-4 border border-green-100 shadow-sm 
+      flex items-center gap-3
+      transform transition-all duration-300 hover:scale-[1.03] hover:shadow-md"
+    >
+      
+      {/* ICON */}
+      <div className="w-10 h-10 flex items-center justify-center rounded-full bg-green-100 text-green-600 text-lg">
+        {item.icon}
+      </div>
+
+      {/* TEXT */}
+      <p className="text-black text-sm sm:text-base">
+        {item.text}
+      </p>
+    </div>
+  ))}
+</div>
+
+    <p className="mt-6 text-center text-black text-sm sm:text-base max-w-2xl mx-auto">
+      This feature allows customers to reach you wherever they discover your business.
+    </p>
+
+
+    {/* ================= WHY QMIZE ================= */}
+    <div className="mt-16 text-center">
+      <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-black">
+        Why Choose <span className="text-green-600">Qmize?</span>
+      </h2>
+    </div>
+
+    <p className="mt-4 text-center text-black text-sm sm:text-base max-w-3xl mx-auto">
+      Qmize is a Meta Official Partner offering advanced communication solutions, including WhatsApp Business API, automation, and bulk messaging.
+    </p>
+
+ <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+  {feature.map((item, i) => (
+    <div
+      key={i}
+      className="bg-white rounded-2xl p-6 border border-green-100 shadow-sm text-center
+      h-full flex flex-col items-center justify-center
+      transform transition-all duration-300 hover:scale-105 hover:-translate-y-2 hover:shadow-xl"
+    >
+      
+      {/* ICON */}
+      <div className="w-14 h-14 flex items-center justify-center rounded-full 
+      bg-green-100 text-green-600 text-2xl">
+        {item.icon}
+      </div>
+
+      {/* TEXT */}
+      <p className="mt-4 text-black text-sm sm:text-base font-medium leading-snug">
+        {item.text}
+      </p>
+
+    </div>
+  ))}
+</div>
+
+
+    {/* ================= CTA ================= */}
+    <div className="mt-16 text-center">
+      <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-black">
+        Start Creating Your WhatsApp Link Now
+      </h2>
+
+      <p className="mt-4 text-black text-sm sm:text-base max-w-2xl mx-auto">
+        Stop losing leads due to complicated contact processes. Use Qmize to create a WhatsApp link instantly and turn every click into a conversation.
+      </p>
+
+      <button   onClick={() => {
+      document.getElementById("link-generator")?.scrollIntoView({
+        behavior: "smooth",
+      });
+    }}
+    className="mt-6 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-xl shadow-md transition duration-300 cursor-pointer">
+       
+        <span className="flex items-center gap-2"><BsWhatsapp className="text-2xl" /> Generate Your Link </span>
+      </button>
+    </div>
+
+  </div>
+</section>
+
+  <section className="w-full bg-gradient-to-r from-green-50 via-white to-green-100 py-16 px-4 sm:px-6 lg:px-16">
+      <div className="max-w-4xl mx-auto text-center">
+
+        {/* HEADING */}
+        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black relative inline-block">
+          Frequently Asked 
+          <span className="text-green-600"> Questions</span>
+          <span className="absolute left-1/2 -translate-x-1/2 -bottom-2 w-16 h-1 bg-gradient-to-r from-green-500 to-green-300 rounded-full"></span>
+        </h2>
+
+        {/* FAQ LIST */}
+        <div className="mt-10 space-y-4 text-left">
+          {faqs.map((faq, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-xl border border-green-100 shadow-sm p-5 cursor-pointer
+              transition-all duration-300 hover:shadow-md"
+              onClick={() => setOpenIndex(openIndex === index ? null : index)}
+            >
+              {/* QUESTION */}
+              <div className="flex justify-between items-center">
+                <h3 className="text-black font-semibold text-base sm:text-lg">
+                  {faq.q}
+                </h3>
+                <span className="text-green-600 text-xl font-bold">
+                  {openIndex === index ? <MdKeyboardArrowUp /> : <MdKeyboardArrowDown/>}
+                </span>
+              </div>
+
+              {/* ANSWER */}
+              {openIndex === index && (
+                <p className="mt-3 text-black text-sm sm:text-base leading-relaxed">
+                  {faq.a}
+                </p>
+              )}
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </section>
+
 
         {/* MODAL */}
         {isVisible && (

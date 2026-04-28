@@ -5,6 +5,7 @@ import {
   X,
   ArrowRight,
   ChevronDown,
+  Scan,
  
   
 
@@ -134,8 +135,8 @@ export default function Navbar() {
     {
       title: "Platform Integration",
       items: [
-        { title: "WhatsApp Link", desc: "Generate Customize link", icon: MessageCircle, link: "/whatsapp-link-generator" },
-        { title: "WhatsApp Button", desc: "Create Whatsapp chat widget", icon: Phone, link: "https://apihub.msg24x7.com/whatsapp-widget-button"  },
+        // { title: "WhatsApp Link", desc: "Generate Customize link", icon: MessageCircle, link: "/whatsapp-link-generator" },
+        // { title: "WhatsApp Button", desc: "Create Whatsapp chat widget", icon: Phone, link: "https://apihub.msg24x7.com/whatsapp-widget-button"  },
         { title: "App Marketplace", desc: "See our Integration", icon: Mail ,link:"/whatsapp-business-api-integration"}
       ]
     },
@@ -175,7 +176,9 @@ export default function Navbar() {
       items: [
         { title: "Blog", desc: "Expert content", icon: Newspaper , link: "/blogs" },
     
-        { title: "Developer API Docs", desc: "Get API Integration Detail", icon: FileText , link: "/whatsapp-api-integration-docs"}
+        { title: "Developer API Docs", desc: "Get API Integration Detail", icon: FileText , link: "/whatsapp-api-integration-docs"},
+       { title: "WhatsApp Link", desc: "Generate Customize link", icon: MessageCircle, link: "/whatsapp-link-generator" },
+{ title: "WhatsApp Button", desc: "Create Whatsapp chat widget", icon: Phone, link: "https://apihub.msg24x7.com/whatsapp-widget-button"  },
       ]
     },
     {
@@ -183,7 +186,8 @@ export default function Navbar() {
       items: [
         
         { title: "Careers", desc: "Join team", icon: Sparkles },
-        { title: "Partners", desc: "Collaborate", icon: Workflow }
+        { title: "Partners", desc: "Collaborate", icon: Workflow },
+        { title: "WhatsApp QR Code", desc: "Create Whatsapp QR Code", icon: Scan, link: "/whatsapp-qr-code-generator"  },
       ]
     },
     {
