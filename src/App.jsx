@@ -74,6 +74,8 @@ import ThirtyBlog from "./Components/Blogs/ThirtyBlog";
 import ThirtyOneBlog from "./Components/Blogs/ThirtyOneBlog";
 import ThirtyTwoBlog from "./Components/Blogs/ThirtyTwoBlog";
 import ThirtyThreeBlog from "./Components/Blogs/ThirtyThreeBlog";
+import ThirtyFourBlog from "./Components/Blogs/ThirtyFourBlog";
+import ThirtyFiveBlog from "./Components/Blogs/ThirtyFiveBlog";
 
 
 const LenisProvider = ({ children }) => {
@@ -237,8 +239,9 @@ const AppRoute = () => {
         <Route path="/blog/whatsapp-broadcast" element={<ThirtyBlog/>}/>
         <Route path="/blog/whatsapp-blue-tick" element={<ThirtyOneBlog/>}/>   
         <Route path="/blog/whatsapp-business-web-login-issues-fixes" element={<ThirtyTwoBlog/>}/>
-       <Route path="/blog/top-customer-engagement-platforms" element={<ThirtyThreeBlog/>} />
-
+       <Route path="/blog/top-customer-engagement-platforms" element={<ThirtyThreeBlog/>} /> 
+       <Route path="/blog/whatsapp-message-template" element={<ThirtyFourBlog />} />
+       <Route path="/blog/whatsapp-chatbot" element={<ThirtyFiveBlog/>} /> 
         <Route path="*" element={<NotFound />} />
 
       </Routes>

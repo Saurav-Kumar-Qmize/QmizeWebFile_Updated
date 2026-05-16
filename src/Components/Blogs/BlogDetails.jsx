@@ -35,8 +35,25 @@ import whatsapp30 from "../../assets/Images/whatsapp-description-30.jpg";
 import whatsapp31 from "../../assets/Images/whatsapp_description_31.jpeg";
 import whatsapp32 from "../../assets/Images/whatsapp_description_32.jpeg";
 import whatsapp33 from "../../assets/Images/whatsapp33.jpeg";
+import whatsapp34 from "../../assets/Images/whatspptempblogpost.jpeg";
+import whatsapp35 from "../../assets/Images/blogpostchatbot.jpg";
+
 const BlogDetails = () => {
   const blogs = [
+    {
+      id: 35,
+      title: "WhatsApp Chatbot: Benefits, Features, Pricing & Setup Guide 2026",
+      date: "May 16, 2026",
+      image: whatsapp35,
+      link: "/blog/whatsapp-chatbot"
+    },
+    {
+      id:34,
+      title: "WhatsApp Message Template: Best WhatsApp Marketing Message Templates 2026",
+      date: "May 16, 2026",
+      image: whatsapp34,
+      link: "/blog/whatsapp-message-template"
+    },
     {
      id: 33,
       title: "Top 10 Customer Engagement Platforms in 2026 | Best Tools & Software",
