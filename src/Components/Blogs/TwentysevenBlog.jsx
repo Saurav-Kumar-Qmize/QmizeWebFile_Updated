@@ -512,11 +512,11 @@ const toc = [
           Launch the WhatsApp Business app on your smartphone.
         </p>
 
-        <div className="mt-4">
+        <div className="mt-4 flex justify-center">
           <img
             src={whatsapp02}
             alt="how to use WhatsApp business web"
-            className="w-full rounded-xl border shadow-sm"
+            className="max-w-sm w-[300px] h-[460px] rounded-xl border shadow-sm"
           />
         </div>
       </div>
@@ -531,11 +531,11 @@ const toc = [
           Tap the three dots menu → Linked Devices.
         </p>
 
-        <div className="mt-4">
+        <div className="mt-4 flex justify-center">
           <img
             src={whatsapp03}
             alt="whatsapp business web login pc"
-            className="w-full rounded-xl border shadow-sm"
+            className="max-w-sm w-[300px] h-[460px] rounded-xl border shadow-sm"
           />
         </div>
       </div>
@@ -550,11 +550,11 @@ const toc = [
           Your phone camera will open automatically.
         </p>
 
-        <div className="mt-4">
+        <div className="mt-4 flex justify-center">
           <img
             src={whatsapp04}
             alt="WhatsApp business web link device"
-            className="w-full rounded-xl border shadow-sm"
+            className="max-w-sm w-[300px] h-[460px] rounded-xl border shadow-sm"
           />
         </div>
       </div>
@@ -569,11 +569,11 @@ const toc = [
           Scan the QR code displayed on your computer screen.
         </p>
 
-        <div className="mt-4">
+        <div className="mt-4 flex justify-center">
           <img
             src={whatsapp05}
             alt="WhatsApp business web qr code login"
-            className="w-full rounded-xl border shadow-sm"
+            className="max-w-sm w-[300px] h-[460px] rounded-xl border shadow-sm"
           />
         </div>
 

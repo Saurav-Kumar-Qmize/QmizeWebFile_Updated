@@ -265,7 +265,7 @@ const WhatsAppAPI = () => {
               </div>
 
               <h1 className="text-2xl sm:text-2xl md:text-3xl font-bold text-gray-900 leading-snug">
-                WhatsApp Business Description: Guide, 100 Examples
+                  WhatsApp Broadcast: The Complete Guide to Sending Messages at Scale
               </h1>
 
               {/* AUTHOR SECTION */}
@@ -292,17 +292,18 @@ const WhatsAppAPI = () => {
                 Updated on 16 Apr 2026 • 28 min read
               </p>
 
-              <section className="w-full py-5 ">
+              <section className="w-full py-2 ">
                 <div className="max-w-4xl mx-auto ">
                   {/* WhatsApp Broadcast: The Complete Guide to Sending Messages at Scale */}
                   <section id="first">
-                    <div className="max-w-4xl mx-auto mb-5">
-                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                    <div className="max-w-4xl mx-auto mb-3">
+                      {/* <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
                         WhatsApp Broadcast: The Complete Guide to Sending
                         Messages at Scale
-                      </h2>
+                      </h2> */}
 
-                      <div className="space-y-6 text-md leading-relaxed text-gray-800">
+                      <div className="space-y-3 text-md leading-relaxed text-gray-800">
+                             <p className=" text-emerald-700 text-xl font-bold">Introduction</p>
                         <p>
                           Businesses today need fast and direct communication
                           with customers. One of the most effective tools for
@@ -334,7 +335,7 @@ const WhatsAppAPI = () => {
                         </p>
                       </div>
                       {/* Image after intro */}
-                      <div className="mb-8">
+                      <div className="mb-8 mt-4">
                         <img
                           src={bannerImage30}
                           alt="WhatsApp api integration"

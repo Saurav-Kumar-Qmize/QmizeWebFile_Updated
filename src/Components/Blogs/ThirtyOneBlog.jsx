@@ -270,7 +270,7 @@ const WhatsAppAPI = () => {
               </div>
 
               <h1 className="text-2xl sm:text-2xl md:text-3xl font-bold text-gray-900 leading-snug">
-                WhatsApp Business Description: Guide, 100 Examples
+               WhatsApp Blue Tick: Complete Guide to Get Verified on WhatsApp Business
               </h1>
 
               {/* AUTHOR SECTION */}
@@ -297,21 +297,22 @@ const WhatsAppAPI = () => {
                 Updated on 16 Apr 2026 • 28 min read
               </p>
 
-              <section className="w-full py-5 ">
+              <section className="w-full py-2 ">
                 <div className="max-w-4xl mx-auto ">
                   {/*  WhatsApp Blue Tick: Complete Guide to Get Verified on WhatsApp Business */}
                   <section id="first">
-                    <div className="max-w-4xl mx-auto mb-5">
-                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                    <div className="max-w-4xl mx-auto mb-3">
+                      {/* <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
                        WhatsApp Blue Tick: Complete Guide to Get Verified on WhatsApp Business
-                      </h2>
+                      </h2> */}
 
-                      <div className="space-y-6 text-md leading-relaxed text-gray-800 mb-3">
+                      <div className="space-y-3 text-md leading-relaxed text-gray-800 mb-3">
+                         <p className=" text-emerald-700 text-xl font-bold">Introduction</p>
                         <p >
                      When customers interact with any businesses on WhatsApp, they look for authenticity. 
-                      A verified badge <br/>(blue tick) next {"    "}to your
+                      A verified badge (blue tick) next {"    "}to your
                       business name on WhatsApp instantly signals the trust, authenticity, 
-                      and credibility .<br/> The {"   "} <span className="font-bold"> {"  "} WhatsApp Blue Tick {"  "} </span>is 
+                      and credibility . The {"   "} <span className="font-bold"> {"  "} WhatsApp Blue Tick {"  "} </span>is 
                       one of the most powerful features for businesses looking to stand out and build customer confidence on the platform.</p>
                       <p> This guide covers everything that you need to know about the 
                         <span className="font-bold"> WhatsApp Blue Tick </span>, including how to get blue tick on 

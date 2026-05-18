@@ -254,7 +254,7 @@ const ThirtyThreeBlog = () => {
               </div>
 
               <h1 className="text-2xl sm:text-2xl md:text-3xl font-bold text-gray-900 leading-snug">
-                WhatsApp Business Description: Guide, 100 Examples
+              Top 10 Customer Engagement Platforms 2026 for Better Customer Experience
               </h1>
 
               {/* AUTHOR SECTION */}
@@ -281,16 +281,17 @@ const ThirtyThreeBlog = () => {
                 Updated on 16 Apr 2026 • 28 min read
               </p>
 
-              <section  className="w-full py-5 ">
+              <section  className="w-full py-2 ">
                 <div className="max-w-4xl mx-auto ">
                   {/* Top 10 Customer Engagement Platforms 2026 for Better Customer Experience */}
                   <section id="first">
-                    <div className="max-w-4xl mx-auto mb-5">
-                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
-                      Top 10 Customer Engagement Platforms 2026 for Better Customer Experience
-                      </h2>
+                    <div className="max-w-4xl mx-auto mb-3">
+                      {/* <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                      
+                      </h2> */}
 
-                      <div className="space-y-6 text-md leading-relaxed text-gray-800 mb-3">
+                      <div className="space-y-3 text-md leading-relaxed text-gray-800 mb-3">
+                         <p className=" text-emerald-700 text-xl font-bold">Introduction</p>
                        <p>
                         Customer expectations in 2026 are higher than ever. 
                         Businesses are no longer competing just on product
