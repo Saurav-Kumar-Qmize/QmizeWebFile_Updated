@@ -352,9 +352,10 @@ const ThirtyFiveBlog = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 to="https://www.whatsapp.com/"
+                                className="text-blue-600 underline hover:text-blue-800"
                               >
                                 <span className="text-blue-500 hover:underline">
-                                  WhatsApp  {"   "}
+                                {"  "}  WhatsApp  {"   "}
                                 </span>
                               </Link> {"  "} has billions of active users 
                       around the world and it provides
@@ -414,6 +415,7 @@ const ThirtyFiveBlog = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 to="https://qmize.com/whatsapp-business-api"
+                                
                               >
                                 <span className="text-blue-500 hover:underline">
                                   {"   "}WhatsApp Business API {"   "}

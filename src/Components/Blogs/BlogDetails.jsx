@@ -37,9 +37,16 @@ import whatsapp32 from "../../assets/Images/whatsapp_description_32.jpeg";
 import whatsapp33 from "../../assets/Images/whatsapp33.jpeg";
 import whatsapp34 from "../../assets/Images/whatspptempblogpost.jpeg";
 import whatsapp35 from "../../assets/Images/blogpostchatbot.jpg";
-
+import whatsapp36 from "../../assets/Images/Whats-Busi-Serv-UAE.jpg";
 const BlogDetails = () => {
   const blogs = [
+    {
+       id: 36,
+      title: "Top 10 WhatsApp Business API Providers in UAE (2026 Guide for Businesses)",
+      date: "May 23, 2026",
+      image: whatsapp36,
+      link: "/blog/top-whatsapp-business-api-providers-uae"
+    },
     {
       id: 35,
       title: "WhatsApp Chatbot: Benefits, Features, Pricing & Setup Guide 2026",

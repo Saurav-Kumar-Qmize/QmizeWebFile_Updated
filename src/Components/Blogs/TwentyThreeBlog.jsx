@@ -136,7 +136,7 @@ const toc = [
             <title> Complete Enterprise Messaging for UAE Businesses | Qmize</title>
             <meta
               name="description"
-              content=""
+              content="Powerful enterprise messaging tailored for UAE businesses. Improve team collaboration and communication efficiency with our innovative solutions."
             />
             <link rel="canonical" href="https://qmize.com/enterprise-messaging-for-uae-businesses" />
     
