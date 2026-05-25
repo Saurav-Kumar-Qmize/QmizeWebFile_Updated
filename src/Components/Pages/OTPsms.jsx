@@ -4,6 +4,7 @@ import Navbar2 from "../Common/Navbar2"
 import OTPSMSServices from "../OTPFiles/OTPSMS"
 import Footer from '../Common/Footer'
 import { Helmet } from 'react-helmet';
+import FormContact from '../Common/FormContact';
 
 const OTPsms = () => {
   return (
@@ -22,6 +23,7 @@ const OTPsms = () => {
     <Navbar1/>
     <Navbar2/>
     <OTPSMSServices/>
+    <FormContact/>
     <Footer/>
 
     

@@ -4,6 +4,7 @@ import Navbar1 from '../Common/Navbar1';
 import CloudTelephony from "../CloudFiles/CloudTelephonyServices";
 import Footer from '../Common/Footer'; 
 import { Helmet } from 'react-helmet';
+import FormContact from '../Common/FormContact';
 const Cloudtelephony = () => {
   return (
     <>
@@ -27,6 +28,7 @@ const Cloudtelephony = () => {
     <Navbar1/>
     <Navbar2/>
     <CloudTelephony/>
+    <FormContact/>
     <Footer/>
     
     

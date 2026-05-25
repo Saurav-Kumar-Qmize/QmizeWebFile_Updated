@@ -4,6 +4,7 @@ import Navbar2 from '../Common/Navbar2'
 import SMMServices from "../SMMStuff/SMMServices";
 import Footer from '../Common/Footer';
 import {Helmet} from "react-helmet";
+import FormContact from '../Common/FormContact';
 
 const SMM = () => {
   return (
@@ -21,6 +22,7 @@ const SMM = () => {
     <Navbar1/>
     <Navbar2/>
     <SMMServices/>
+    <FormContact/>
     <Footer/>
     </>
   )

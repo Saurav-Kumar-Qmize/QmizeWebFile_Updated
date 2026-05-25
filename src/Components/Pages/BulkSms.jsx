@@ -4,6 +4,7 @@ import Navbar1 from "../Common/Navbar1";
 import BulkSmsServices from "../BulkSmsServices/BulkSmsServices";
 import Footer from '../Common/Footer';
 import { Helmet } from 'react-helmet';
+import FormContact from '../Common/FormContact';
 
 const BulkSms = () => {
   return (
@@ -21,6 +22,7 @@ const BulkSms = () => {
     <Navbar1/>
     <Navbar2/>
     <BulkSmsServices/> 
+    <FormContact/>
     <Footer/>   
     
     </>

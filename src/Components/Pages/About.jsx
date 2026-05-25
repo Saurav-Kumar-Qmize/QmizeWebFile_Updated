@@ -4,6 +4,7 @@ import Navbar2 from '../Common/Navbar2'
 import AboutHeroSec from '../About/AboutHeroSec'
 import Footer from '../Common/Footer'
 import { Helmet } from 'react-helmet'
+import FormContact from '../Common/FormContact'
 
 
 const About = () => {
@@ -31,6 +32,7 @@ const About = () => {
     <Navbar1/>
     <Navbar2/>
     <AboutHeroSec/>
+    <FormContact/>
     <Footer/>
    
     </>

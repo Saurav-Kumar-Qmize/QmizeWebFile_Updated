@@ -4,6 +4,7 @@ import Navbar2 from '../Common/Navbar2';
 import WebsiteService from '../WebsiteDevFiles/WebDevService';
 import Footer from '../Common/Footer';
 import {Helmet } from "react-helmet"
+import FormContact from '../Common/FormContact';
 
 const WebsiteDev = () => {
   return (
@@ -21,6 +22,7 @@ const WebsiteDev = () => {
     <Navbar1/>
     <Navbar2/>
     <WebsiteService/>
+    <FormContact/>
     <Footer/>
 
 

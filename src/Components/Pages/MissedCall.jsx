@@ -4,6 +4,7 @@ import Navbar1 from '../Common/Navbar1'
 import MissedCallService from "../MissedCallFiles/MissedCallServices";
 import Footer from "../Common/Footer";
 import { Helmet } from 'react-helmet';
+import FormContact from '../Common/FormContact';
 
 const MissedCall = () => {
   return (
@@ -24,6 +25,7 @@ const MissedCall = () => {
       <Navbar1/>
       <Navbar2/>
       <MissedCallService/>
+      <FormContact/>
       <Footer/>
 
    

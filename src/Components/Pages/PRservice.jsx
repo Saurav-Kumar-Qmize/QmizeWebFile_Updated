@@ -4,6 +4,7 @@ import Navbar2 from '../Common/Navbar2'
 import PRServices from "../PRFiles/PRServices";
 import Footer from '../Common/Footer';
 import {Helmet} from "react-helmet";
+import FormContact from '../Common/FormContact';
 
 const PRservice = () => {
   return (
@@ -21,6 +22,7 @@ const PRservice = () => {
     <Navbar1/>
     <Navbar2/>
     <PRServices/>
+    <FormContact/>
     <Footer/>
     </>
   )

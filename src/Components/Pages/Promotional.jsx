@@ -4,6 +4,7 @@ import Navbar1 from '../Common/Navbar1'
 import PromotionalSMS from "../PromotionalFiles/PromotionalSMS";
 import Footer from "../Common/Footer";
 import { Helmet } from 'react-helmet';
+import FormContact from '../Common/FormContact';
 
 const Promotional = () => {
   return (
@@ -28,6 +29,7 @@ const Promotional = () => {
     <Navbar1/>
     <Navbar2/>
     <PromotionalSMS/>
+    <FormContact/>
     <Footer/>
 
     

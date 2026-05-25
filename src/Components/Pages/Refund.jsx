@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar2 from '../Common/Navbar2'
 import Navbar1 from '../Common/Navbar1'
 import Footer from '../Common/Footer'
+import FormContact from '../Common/FormContact'
 
 const Refund = () => {
   return (
@@ -150,7 +151,7 @@ const Refund = () => {
 
 
 
-
+<FormContact/>
 
 
 <Footer/>

@@ -3,6 +3,7 @@ import Navbar1 from '../Common/Navbar1'
 import WabaService from "../WhatsAppAPIFiles/ServiceSection";
 import Footer from '../Common/Footer';
 import {Helmet} from "react-helmet";
+import FormContact from '../Common/FormContact';
 
 const WABA = () => {
   return (
@@ -20,6 +21,7 @@ const WABA = () => {
     <Navbar1/>
     <Navbar2/>
     <WabaService/>
+    <FormContact/>
     <Footer/>
     </>
   )

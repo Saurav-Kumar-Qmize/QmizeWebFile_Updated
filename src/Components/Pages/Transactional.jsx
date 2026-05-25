@@ -4,6 +4,7 @@ import Navbar1 from '../Common/Navbar1'
 import TransactionalSMS from "../TransactionalFiles/TransactionalSMS";
 import Footer from "../Common/Footer";
 import { Helmet } from 'react-helmet';
+import FormContact from '../Common/FormContact';
 
 const Promotional = () => {
   return (
@@ -23,6 +24,7 @@ const Promotional = () => {
     <Navbar1/>
     <Navbar2/>
     <TransactionalSMS/>
+    <FormContact/>
     <Footer/>
 
     

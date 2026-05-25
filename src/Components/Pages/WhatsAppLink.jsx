@@ -20,6 +20,7 @@ import {
   FaEnvelope, 
   FaQrcode 
 } from "react-icons/fa";
+import FormContact from "../Common/FormContact";
 const WhatsAppLink = () => {
 
    const countries = [
@@ -1042,7 +1043,7 @@ const items = [
           </div>
         )}
       </div>
-
+<FormContact/>
       <Footer />
     </>
   );

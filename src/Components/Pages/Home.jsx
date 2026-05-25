@@ -6,6 +6,7 @@ import ServiceSection from '../Home/ServiceSection';
 import Solutions from "../Home/Solutions";
 import Footer from "../Common/Footer";
 import { Helmet } from 'react-helmet';
+import FormContact from '../Common/FormContact';
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
     <HeroSection/>
     <ServiceSection/>
     <Solutions/>
+    <FormContact/>
     <Footer/>
     </>
   )

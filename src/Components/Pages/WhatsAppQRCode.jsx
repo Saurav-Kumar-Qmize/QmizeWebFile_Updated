@@ -43,6 +43,7 @@ import {
   FaExchangeAlt,
    FaCheckCircle, FaRocket 
 } from "react-icons/fa";
+import FormContact from "../Common/FormContact";
    const countries = [
         { name: 'India', code: '91' },
           { name: "Afghanistan", code: "93" },
@@ -1068,6 +1069,7 @@ bg-gradient-to-br from-green-50 via-white to-green-100">
 
       </div>
     </section>
+    <FormContact/>
  <Footer />
 </div>
  

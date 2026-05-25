@@ -4,6 +4,7 @@ import Navbar1 from '../Common/Navbar1'
 import Footer from '../Common/Footer'
 import TollfreeSection from '../TollfreeFiles/TollfreeServices'
 import { Helmet } from 'react-helmet'
+import FormContact from '../Common/FormContact';
 
 const Tollfree = () => {
   return (
@@ -23,6 +24,7 @@ const Tollfree = () => {
     <Navbar1/>
     <Navbar2/>
     <TollfreeSection/>
+    <FormContact/>
     <Footer/>
     
     

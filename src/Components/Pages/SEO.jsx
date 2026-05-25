@@ -4,6 +4,7 @@ import Navbar1 from '../Common/Navbar1'
 import SeoServices from "../SEOFiles/SeoServices";
 import Footer from '../Common/Footer';
 import {Helmet} from "react-helmet";
+import FormContact from '../Common/FormContact';
 
 const SeoService = () => {
   return (
@@ -21,6 +22,7 @@ const SeoService = () => {
    <Navbar1/>
    <Navbar2/>
    <SeoServices/>
+   <FormContact/>
    <Footer/>
    
    

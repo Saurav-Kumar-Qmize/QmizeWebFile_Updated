@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Navbar1 from "../Common/Navbar1";
 import Navbar2 from "../Common/Navbar2";
 import Footer from "../Common/Footer";
+import FormContact from "../Common/FormContact";
 
 // images
 import app01 from "../../assets/Images/chat-button.png";
@@ -24,6 +25,7 @@ import app14 from "../../assets/Images/app14.png";
 import app15 from "../../assets/Images/app15.png";
 import app16 from "../../assets/Images/app16.png";
 import app17 from "../../assets/Images/app17.png";
+import { i } from "framer-motion/client";
 
 /* =======================
    DATA CONFIG
@@ -241,7 +243,7 @@ const AppMarket = () => {
 
         </div>
       </div>
-
+        <FormContact/>
       <Footer />
     </>
   );

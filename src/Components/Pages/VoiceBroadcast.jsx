@@ -4,6 +4,7 @@ import Navbar2 from "../Common/Navbar2"
 import VoiceBroadcastServices from "../VoiceBroadCastFiles/VoiceBroadcastServices";
 import Footer from '../Common/Footer';
 import { Helmet } from "react-helmet";
+import FormContact from "../Common/FormContact";
 
 const VoiceBroadcast = () => {
   return (
@@ -27,6 +28,7 @@ const VoiceBroadcast = () => {
     <Navbar1/>
     <Navbar2/>
     <VoiceBroadcastServices/>
+    <FormContact/>
     <Footer/>
     
     

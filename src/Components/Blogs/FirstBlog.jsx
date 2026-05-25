@@ -29,7 +29,7 @@ import sendbird from "../../assets/Images/sendbir-competitor.webp"
 import Footer from "../Common/Footer";
 import {Link} from "react-router-dom";
 import christmasImage from "../../assets/Images/christmas_offer_blog.webp";
-
+import BlogPopup from "./BlogPopup";
 
 export default function BlogLayout() {
 
@@ -149,6 +149,7 @@ useEffect(() => {
 
   return (
     <>  
+    <BlogPopup/>
 
      <Helmet>
 
