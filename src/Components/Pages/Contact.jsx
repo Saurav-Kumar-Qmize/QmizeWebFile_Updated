@@ -3,6 +3,7 @@ import Navbar2 from '../Common/Navbar2'
 import Navbar1 from '../Common/Navbar1';
 import Footer from '../Common/Footer';
 import FormContact from '../Common/FormContact';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -45,6 +46,16 @@ const Contact = () => {
    <>
    <Navbar1/>
    <Navbar2/>
+<div className="min-h-screen bg-gradient-to-b from-green-100 to-green-200">
+   <Helmet>
+                          <title>Contact-US</title>
+                          <meta
+                            name="description"
+                            content="Get in touch with Qmize for any questions or support. Our team is ready to assist you promptly and efficiently. We look forward to hearing from you!"
+                          />
+                         
+                          <link rel="canonical" href="https://qmize.com/contact-us" />
+                        </Helmet>
 
 
 <section className="relative overflow-hidden bg-gradient-to-br from-white via-emerald-100 to-white py-10">
@@ -170,6 +181,7 @@ const Contact = () => {
 
 
    <Footer/>
+   </div>
    </>
   )
 }

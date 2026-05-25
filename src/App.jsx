@@ -76,7 +76,8 @@ import ThirtyTwoBlog from "./Components/Blogs/ThirtyTwoBlog";
 import ThirtyThreeBlog from "./Components/Blogs/ThirtyThreeBlog";
 import ThirtyFourBlog from "./Components/Blogs/ThirtyFourBlog";
 import ThirtyFiveBlog from "./Components/Blogs/ThirtyFiveBlog";
-
+import ThirtySixBlog from "./Components/Blogs/ThirtySixBlog";
+import WhatsappbusinessApiUAE from "./Components/Pages/WhatsappbusinessApiUAE";
 
 const LenisProvider = ({ children }) => {
   const location = useLocation();
@@ -202,7 +203,7 @@ const AppRoute = () => {
         <Route path="/whatsapp-link-generator" element={<WhatsAppLink />} />
         <Route path="/whatsapp-business-api-integration" element={<AppMarket />} />
          <Route path="/whatsapp-qr-code-generator" element={<WhatsAppQRCode />} />
-        
+        <Route path="/whatsapp-business-uae" element={<WhatsappbusinessApiUAE />} />
 
         
         <Route path="/blog/top-10-whatsapp-business-api-provider-in-india" element={<FirstBlog/>}/>
@@ -242,6 +243,8 @@ const AppRoute = () => {
        <Route path="/blog/top-customer-engagement-platforms" element={<ThirtyThreeBlog/>} /> 
        <Route path="/blog/whatsapp-message-template" element={<ThirtyFourBlog />} />
        <Route path="/blog/whatsapp-chatbot" element={<ThirtyFiveBlog/>} /> 
+       <Route path="/blog/top-whatsapp-business-api-providers-uae" element={<ThirtySixBlog/>} /> 
+       
         <Route path="*" element={<NotFound />} />
 
       </Routes>
