@@ -11,6 +11,7 @@ import whyQR from "../../assets/Images/whyQR.png";
 import { IoIosArrowDown } from "react-icons/io";
 import { IoIosArrowUp } from "react-icons/io";
 import whatsappbusinessapiuae from "../../assets/Images/Whats-busi-api-uae.jpeg";
+import FormContact from "../Common/FormContact";
 
 
 import {
@@ -711,7 +712,7 @@ bg-gradient-to-br from-white via-green-50 to-white">
 
           </div>
         </section>
-
+           <FormContact/>   
         <Footer />
       </div>
 
