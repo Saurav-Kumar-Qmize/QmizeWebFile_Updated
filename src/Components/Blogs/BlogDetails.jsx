@@ -38,8 +38,24 @@ import whatsapp33 from "../../assets/Images/whatsapp33.jpeg";
 import whatsapp34 from "../../assets/Images/whatspptempblogpost.jpeg";
 import whatsapp35 from "../../assets/Images/blogpostchatbot.jpg";
 import whatsapp36 from "../../assets/Images/Whats-Busi-Serv-UAE.jpg";
+import whatsapp37 from "../../assets/Images/whats-busi-app.jpeg";
+import whatsapp38 from "../../assets/Images/whats-busi-api.jpeg";
 const BlogDetails = () => {
   const blogs = [
+    {
+      id: 38,
+      title: "WhatsApp Business API: Features, Pricing, Benefits & Setup Guide (2026)",
+      date: "May 30, 2026",
+      image: whatsapp38,
+      link: "/blog/whatsapp-business-api"
+    },
+    {
+      id: 37,
+      title: "WhatsApp Business App: Complete Guide for Business 2026",
+      date: "May 30, 2026",
+      image: whatsapp37,
+      link: "/blog/whatsapp-business-app"
+    },
     {
        id: 36,
       title: "Top 10 WhatsApp Business API Providers in UAE (2026 Guide for Businesses)",
