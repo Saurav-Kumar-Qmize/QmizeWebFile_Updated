@@ -78,6 +78,7 @@ import ThirtyFourBlog from "./Components/Blogs/ThirtyFourBlog";
 import ThirtyFiveBlog from "./Components/Blogs/ThirtyFiveBlog";
 import ThirtySixBlog from "./Components/Blogs/ThirtySixBlog";
 import WhatsappbusinessApiUAE from "./Components/Pages/WhatsappbusinessApiUAE";
+
 import ThirtySevenBlog from "./Components/Blogs/ThirtySevenBlog";
 import ThirtyEightBlog from "./Components/Blogs/ThirtyEightBlog";
 
@@ -223,7 +224,7 @@ const AppRoute = () => {
         <Route path="/blog/whatsapp-ecommerce-store-guide" element={<EleventhBlog/>}/>
         <Route path="/blog/whatsapp-message-not-delivered" element={<TwelfthBlog/>}/>
         <Route path="/blog/whatsapp-broadcast-vs-whatsapp-group" element={<ThirteenBlog/>}/>
-        <Route path="/blog/how-to-send-bulk-sms" element={<FourteenBlog/>}/>
+        <Route path="/blog/how-to-send-bulk-whatsapp-messages" element={<FourteenBlog/>}/>
         <Route path="/blog/whatsapp-automation" element={<FifteenBlog/>}/>
         <Route path="/blog/whatsapp-auto-reply" element={<SixteenBlog/>}/>
         <Route path="/blog/mastering-whatsapp-sales-chat" element={<SeventeenBlog/>}/>
