@@ -78,6 +78,7 @@ import ThirtyFourBlog from "./Components/Blogs/ThirtyFourBlog";
 import ThirtyFiveBlog from "./Components/Blogs/ThirtyFiveBlog";
 import ThirtySixBlog from "./Components/Blogs/ThirtySixBlog";
 import WhatsappbusinessApiUAE from "./Components/Pages/WhatsappbusinessApiUAE";
+import ThirtyNineBlog from "./Components/Blogs/ThirtyNineBlog";
 
 import ThirtySevenBlog from "./Components/Blogs/ThirtySevenBlog";
 import ThirtyEightBlog from "./Components/Blogs/ThirtyEightBlog";
@@ -249,6 +250,7 @@ const AppRoute = () => {
        <Route path="/blog/top-whatsapp-business-api-providers-uae" element={<ThirtySixBlog/>} /> 
        <Route path="/blog/whatsapp-business-app" element={<ThirtySevenBlog/>}/>
        <Route path="/blog/whatsapp-business-api" element={<ThirtyEightBlog/>}/>
+       <Route path="/blog/send-1000-whatsapp-messages-at-once" element={<ThirtyNineBlog/>}/>
         <Route path="*" element={<NotFound />} />
 
       </Routes>

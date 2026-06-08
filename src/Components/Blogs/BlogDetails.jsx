@@ -40,8 +40,16 @@ import whatsapp35 from "../../assets/Images/blogpostchatbot.jpg";
 import whatsapp36 from "../../assets/Images/Whats-Busi-Serv-UAE.jpg";
 import whatsapp37 from "../../assets/Images/whats-busi-app.jpeg";
 import whatsapp38 from "../../assets/Images/whats-busi-api.jpeg";
+import whatsapp39 from "../../assets/Images/send1000-whatsapp-msg.jpeg";
 const BlogDetails = () => {
   const blogs = [
+    {
+      id: 39,
+      title: "How to Send 1,000 WhatsApp Messages at Once Without Getting Your Number Blocked",
+      date: "June 06, 2026",
+      image: whatsapp39,
+      link: "/blog/send-1000-whatsapp-messages-at-once" 
+    },
     {
       id: 38,
       title: "WhatsApp Business API: Features, Pricing, Benefits & Setup Guide (2026)",
@@ -228,7 +236,7 @@ const BlogDetails = () => {
         "How to Send Bulk WhatsApp Messages in 2026 (Free & Scalable Methods)",
       date: "Jan 06, 2026",
       image: sendbulksms,
-      link: "/blog/how-to-send-bulk-sms",
+      link: "/blog/how-to-send-bulk-whatsapp-messages",
     },
     {
       id: 13,
