@@ -78,10 +78,14 @@ import ThirtyFourBlog from "./Components/Blogs/ThirtyFourBlog";
 import ThirtyFiveBlog from "./Components/Blogs/ThirtyFiveBlog";
 import ThirtySixBlog from "./Components/Blogs/ThirtySixBlog";
 import WhatsappbusinessApiUAE from "./Components/Pages/WhatsappbusinessApiUAE";
-import ThirtyNineBlog from "./Components/Blogs/ThirtyNineBlog";
+
 
 import ThirtySevenBlog from "./Components/Blogs/ThirtySevenBlog";
 import ThirtyEightBlog from "./Components/Blogs/ThirtyEightBlog";
+import ThirtyNineBlog from "./Components/Blogs/ThirtyNineBlog";
+import FourtyBlog from "./Components/Blogs/FourtyBlog";
+import FourtyOneBlog from "./Components/Blogs/FourtyOneBlog";
+
 
 const LenisProvider = ({ children }) => {
   const location = useLocation();
@@ -251,6 +255,9 @@ const AppRoute = () => {
        <Route path="/blog/whatsapp-business-app" element={<ThirtySevenBlog/>}/>
        <Route path="/blog/whatsapp-business-api" element={<ThirtyEightBlog/>}/>
        <Route path="/blog/send-1000-whatsapp-messages-at-once" element={<ThirtyNineBlog/>}/>
+       <Route path="/blog/whatsapp-campaign" element={<FourtyBlog/>} />
+       <Route path="/blog/auto-reply-whatsapp-message-sample" element={<FourtyOneBlog/>} />
+
         <Route path="*" element={<NotFound />} />
 
       </Routes>

@@ -41,8 +41,25 @@ import whatsapp36 from "../../assets/Images/Whats-Busi-Serv-UAE.jpg";
 import whatsapp37 from "../../assets/Images/whats-busi-app.jpeg";
 import whatsapp38 from "../../assets/Images/whats-busi-api.jpeg";
 import whatsapp39 from "../../assets/Images/send1000-whatsapp-msg.jpeg";
+import whatsapp40 from "../../assets/Images/whatsapp-campaign.jpeg";
+import whatsapp41 from "../../assets/Images/whatsapp-auto-reply-samples.jpeg";
 const BlogDetails = () => {
+
   const blogs = [
+    {
+      id: 41,
+      title: "50+ Auto Reply WhatsApp Message Samples for Every Business Need",
+      date: "June 13, 2026",
+      image: whatsapp41,
+      link: "/blog/auto-reply-whatsapp-message-sample" 
+    },
+    {
+      id: 40,
+      title: "WhatsApp Campaign: A Complete Guide to Drive Engagement, Leads, and Sales",
+      date: "June 13, 2026",
+      image: whatsapp40,
+      link: "/blog/whatsapp-campaign" 
+    },
     {
       id: 39,
       title: "How to Send 1,000 WhatsApp Messages at Once Without Getting Your Number Blocked",

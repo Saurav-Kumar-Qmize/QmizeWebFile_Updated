@@ -285,7 +285,7 @@ How to Send 1,000 WhatsApp Messages at Once Without Getting Your Number Blocked
   </p>
 
   <p className="text-gray-800 font-medium mb-4 text-[15px] sm:text-base">
-    However, <Link to="blog/how-to-send-bulk-sms" 
+    However, <Link to="https://qmize.com/blog/how-to-send-bulk-whatsapp-messages" 
      target="_blank"
   rel="noopener noreferrer"
    className="text-blue-600 underline hover:text-blue-800"
