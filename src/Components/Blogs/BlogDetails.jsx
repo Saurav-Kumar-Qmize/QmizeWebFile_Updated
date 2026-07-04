@@ -43,9 +43,17 @@ import whatsapp38 from "../../assets/Images/whats-busi-api.jpeg";
 import whatsapp39 from "../../assets/Images/send1000-whatsapp-msg.jpeg";
 import whatsapp40 from "../../assets/Images/whatsapp-campaign.jpeg";
 import whatsapp41 from "../../assets/Images/whatsapp-auto-reply-samples.jpeg";
+import whatsapp42 from "../../assets/Images/whatsapp42.png";
 const BlogDetails = () => {
 
   const blogs = [
+     {
+      id: 42,
+      title: "Top 20 WhatsApp Bulk Message Senders in 2026 | Best Software",
+      date: "July 04, 2026",
+      image: whatsapp42,
+      link: "/blog/top-whatsapp-bulk-message-senders" 
+    },
     {
       id: 41,
       title: "50+ Auto Reply WhatsApp Message Samples for Every Business Need",
