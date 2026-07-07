@@ -449,7 +449,7 @@ const services = [
           { name: "Authentication", price: "₹0.115" }
         ],
         features: [
-          "Basic WABA Access",
+          "Free Waba Access",
           "Advanced Analytics",
           "Broadcasting",
           "CSV Broadcasting",
@@ -730,7 +730,7 @@ const services = [
           { name: "Authentication", price: "₹0.115" }
         ],
         features: [
-          "Basic WABA Access",
+          "Free Waba Access",
           "Advanced Analytics",
           "Broadcasting",
           "CSV Broadcasting",
@@ -1011,7 +1011,7 @@ const services = [
           { name: "Authentication", price: "₹0.115" }
         ],
         features: [
-          "Basic WABA Access",
+          "Free Waba Access",
           "Advanced Analytics",
           "Broadcasting",
           "CSV Broadcasting",
@@ -1292,7 +1292,7 @@ const services = [
           { name: "Authentication", price: "₹0.115" }
         ],
         features: [
-          "Basic WABA Access",
+          "Free Waba Access",
           "Advanced Analytics",
           "Broadcasting",
           "CSV Broadcasting",
@@ -1574,7 +1574,7 @@ const services = [
           { name: "Authentication", price: "$0.115" }
         ],
         features: [
-          "Basic WABA Access",
+          "Free Waba Access",
           "Advanced Analytics",
           "Broadcasting",
           "CSV Broadcasting",
@@ -1855,7 +1855,7 @@ const services = [
           { name: "Authentication", price: "$0.115" }
         ],
         features: [
-          "Basic WABA Access",
+          "Free Waba Access",
           "Advanced Analytics",
           "Broadcasting",
           "CSV Broadcasting",
@@ -2136,7 +2136,7 @@ const services = [
           { name: "Authentication", price: "$0.115" }
         ],
         features: [
-          "Basic WABA Access",
+          "Free Waba Access",
           "Advanced Analytics",
           "Broadcasting",
           "CSV Broadcasting",
@@ -2417,7 +2417,7 @@ const services = [
           { name: "Authentication", price: "$0.115" }
         ],
         features: [
-          "Basic WABA Access",
+          "Free Waba Access",
           "Advanced Analytics",
           "Broadcasting",
           "CSV Broadcasting",
