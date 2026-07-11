@@ -234,7 +234,7 @@ const toc = [
         </div>
 
        <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 leading-snug">
-Top 20 WhatsApp Bulk Message Senders in 2026 | Best Software
+Top 20 WhatsApp Bulk Message Senders in 2026
 
 </h1>
 

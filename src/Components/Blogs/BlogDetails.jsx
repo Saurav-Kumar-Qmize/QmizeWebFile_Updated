@@ -44,12 +44,20 @@ import whatsapp39 from "../../assets/Images/send1000-whatsapp-msg.jpeg";
 import whatsapp40 from "../../assets/Images/whatsapp-campaign.jpeg";
 import whatsapp41 from "../../assets/Images/whatsapp-auto-reply-samples.jpeg";
 import whatsapp42 from "../../assets/Images/whatsapp42.png";
+import whatsapp43 from "../../assets/Images/whatsappapipricing.jpeg";
 const BlogDetails = () => {
 
   const blogs = [
+    {
+      id: 43,
+      title: "WhatsApp API Pricing in India 2026: Everything Businesses Need to Know",
+      date: "July 11, 2026",
+      image: whatsapp43,
+      link: "/blog/whatsapp-api-pricing-india" 
+    },
      {
       id: 42,
-      title: "Top 20 WhatsApp Bulk Message Senders in 2026 | Best Software",
+      title: "Top 20 WhatsApp Bulk Message Senders in 2026 ",
       date: "July 04, 2026",
       image: whatsapp42,
       link: "/blog/top-whatsapp-bulk-message-senders" 

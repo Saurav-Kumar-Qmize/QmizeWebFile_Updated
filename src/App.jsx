@@ -86,7 +86,7 @@ import ThirtyNineBlog from "./Components/Blogs/ThirtyNineBlog";
 import FourtyBlog from "./Components/Blogs/FourtyBlog";
 import FourtyOneBlog from "./Components/Blogs/FourtyOneBlog";
 import FourtyTwoBlog from "./Components/Blogs/FourtyTwoBlog";
-
+import FourtyThreeBlog from "./Components/Blogs/FourtyThreeBlog";
 
 const LenisProvider = ({ children }) => {
   const location = useLocation();
@@ -259,6 +259,7 @@ const AppRoute = () => {
        <Route path="/blog/whatsapp-campaign" element={<FourtyBlog/>} />
        <Route path="/blog/auto-reply-whatsapp-message-sample" element={<FourtyOneBlog/>} />
        <Route path="/blog/top-whatsapp-bulk-message-senders" element={<FourtyTwoBlog/>} />
+       <Route path="/blog/whatsapp-api-pricing-india" element={<FourtyThreeBlog/>} />
 
         <Route path="*" element={<NotFound />} />
 
