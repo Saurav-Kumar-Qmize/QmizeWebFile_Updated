@@ -480,8 +480,21 @@ Top 20 WhatsApp Bulk Message Senders in 2026
         rating: "⭐ 4.6/5"
       },
       {
+        id: "getitsms",
+        name: "3. GetItSMS",
+        desc: "GetItSMS is a WhatsApp Bulk Message Sender that helps businesses automate customer communication, run bulk WhatsApp marketing campaigns, and manage sales and support from a single dashboard. As an official Meta Business Partner, GetItSMS offers reliable message delivery while ensuring compliance with WhatsApp policies. The platform includes AI-powered chatbots, bulk broadcasting, a shared team inbox, CRM integrations, omnichannel communication, and advanced campaign analytics. With no setup cost and zero markup on Meta conversation charges, GetItSMS is a cost-effective solution for startups, SMEs, and enterprises looking to scale customer engagement through WhatsApp.",
+        features: ["Official WhatsApp Business API", "AI-powered WhatsApp Chatbot", "Bulk WhatsApp Broadcast Messaging", "Shared Team Inbox", "CRM & API Integrations", "Omnichannel Communication", "No-code Chatbot Builder", "Click-to-WhatsApp Ads Integration", "WhatsApp Campaign Analytics", "Multi-Agent Support", "Drip Campaign Automation"],
+        bestFor: ["Small & Medium Businesses", "Enterprises", "eCommerce Stores", "Customer Support Teams", "Marketing Agencies", "Healthcare", "Education", "D2C Brands"],
+        pros: ["Official Meta Business Partner", "No setup cost", "Zero markup on Meta conversation charges", "AI chatbot with automation workflows", "User-friendly dashboard", "Supports omnichannel communication", "Reliable customer support"],
+        cons: ["Some advanced enterprise features may require higher plans"],
+        pricing: "Starts at $299/month (zero setup fees and does not apply any markup on Meta conversation charges)",
+        trial: "No",
+        apiSupport: "Yes",
+        rating: "⭐ 4.9/5"
+      },
+      {
         id: "aisensy",
-        name: "3. AiSensy",
+        name: "4. AiSensy",
         desc: "AiSensy is an official WhatsApp Business API platform focused on helping businesses automate marketing, sales, and customer support through WhatsApp. It offers an intuitive interface for creating broadcast campaigns, automating conversations, managing customer interactions, and integrating with CRM systems. AiSensy is particularly popular among startups, D2C brands, educational institutions, and digital marketing agencies due to its ease of use and affordable entry plans. The platform includes features such as campaign scheduling, chatbot automation, click tracking, analytics, and API access. Businesses can use AiSensy to send promotional messages, transactional notifications, and personalized customer communications while remaining compliant with WhatsApp's official messaging guidelines.",
         features: ["Official WhatsApp Business API", "Unlimited broadcast campaigns", "Shared team inbox", "AI-powered chatbot", "Campaign scheduling", "CRM integrations", "Click-to-WhatsApp Ads support", "API access", "Rich media messaging", "Campaign analytics"],
         bestFor: ["Startups", "SMEs", "D2C Brands", "Educational Institutions", "Healthcare", "Marketing Agencies"],
@@ -494,7 +507,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "interakt",
-        name: "4. Interakt",
+        name: "5. Interakt",
         desc: "Interakt is an official WhatsApp Business API platform developed for businesses that want to combine customer communication, sales, and marketing in one solution. It is especially popular among Shopify merchants and D2C brands because of its seamless eCommerce integrations and automation capabilities. Businesses can use Interakt to send bulk WhatsApp campaigns, automate order notifications, recover abandoned carts, manage customer support, and collaborate through a shared team inbox. The platform also provides CRM functionality, payment collection, and campaign analytics, making it a versatile solution for growing businesses. Its user-friendly dashboard and competitive pricing have made it a preferred choice for Indian businesses adopting WhatsApp marketing.",
         features: ["Official WhatsApp Business API", "Bulk broadcast campaigns", "Shared team inbox", "Shopify integration", "Order notifications", "Payment reminders", "CRM", "Automation workflows", "Campaign analytics", "Click-to-WhatsApp Ads support"],
         bestFor: ["eCommerce Businesses", "Shopify Stores", "D2C Brands", "SMEs", "Customer Support Teams"],
@@ -507,7 +520,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "gallabox",
-        name: "5. Gallabox",
+        name: "6. Gallabox",
         desc: "Gallabox is a conversational commerce platform built on the official WhatsApp Business API that enables businesses to automate customer engagement, marketing, and support. It offers a visual no-code workflow builder, chatbot automation, bulk messaging, shared inbox, and CRM integrations, making it suitable for businesses that want to simplify WhatsApp communication. Gallabox is widely adopted by sales teams, customer support departments, healthcare organizations, educational institutions, and retail businesses. Its intuitive interface and automation-first approach help businesses reduce manual work while improving response times and customer satisfaction. The platform also includes campaign analytics, contact management, and integrations with popular business tools.",
         features: ["Official WhatsApp Business API", "No-code chatbot builder", "Bulk broadcast messaging", "Shared team inbox", "Workflow automation", "CRM integrations", "Campaign analytics", "WhatsApp Catalog support", "API access", "Multi-agent collaboration"],
         bestFor: ["SMEs", "Sales Teams", "Customer Support", "Healthcare", "Education", "Retail Businesses"],
@@ -520,7 +533,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "doubletick",
-        name: "6. DoubleTick",
+        name: "7. DoubleTick",
         desc: "DoubleTick is a WhatsApp Business API platform designed to help businesses manage customer conversations, automate marketing campaigns, and improve sales productivity. With features such as bulk messaging, shared inbox, chatbot automation, CRM, lead management, and campaign tracking, DoubleTick caters to businesses looking for an all-in-one WhatsApp engagement solution. It is particularly popular among sales-driven organizations, distributors, retailers, and SMEs because of its mobile-friendly interface and affordable pricing. Businesses can automate follow-ups, send promotional broadcasts, track campaign performance, and collaborate with multiple team members from a centralized dashboard while maintaining compliance with the official WhatsApp Business API.",
         features: ["Official WhatsApp Business API", "Bulk WhatsApp campaigns", "Shared team inbox", "Chatbot automation", "Lead management", "CRM integration", "Campaign scheduling", "Rich media messaging", "Analytics dashboard", "Multi-agent collaboration"],
         bestFor: ["SMEs", "Sales Teams", "Retail Businesses", "Distributors", "Customer Support", "Marketing Teams"],
@@ -533,7 +546,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "respondio",
-        name: "7. Respond.io",
+        name: "8. Respond.io",
         desc: "Respond.io is a customer conversation platform that helps businesses manage communications across multiple messaging channels, including WhatsApp. It supports the official WhatsApp Business API and offers advanced automation and CRM integrations.",
         features: ["Official WhatsApp Business API", "Omnichannel inbox", "Workflow automation", "CRM integrations", "Customer segmentation", "AI-powered conversation tools", "Analytics dashboard"],
         bestFor: ["Large businesses and enterprises managing multiple communication channels."],
@@ -546,7 +559,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "twilio",
-        name: "8. Twilio",
+        name: "9. Twilio",
         desc: "Twilio provides developers with APIs to build custom communication solutions, including WhatsApp messaging through the official Business API.",
         features: ["Official WhatsApp API", "Global messaging", "Programmable APIs", "High scalability", "Webhooks", "Detailed documentation"],
         bestFor: ["Developers and enterprises building custom WhatsApp applications."],
@@ -559,7 +572,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "gupshup",
-        name: "9. Gupshup",
+        name: "10. Gupshup",
         desc: "Gupshup is one of the oldest conversational messaging platforms supporting WhatsApp, SMS, RCS, and other messaging channels.",
         features: ["WhatsApp Business API", "Chatbot builder", "Broadcast campaigns", "Campaign analytics", "API integration", "Multi-channel communication"],
         bestFor: ["Large enterprises and global businesses."],
@@ -572,7 +585,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "messagebird",
-        name: "10. MessageBird",
+        name: "11. MessageBird",
         desc: "MessageBird enables businesses to communicate with customers through WhatsApp, SMS, voice, and email from one platform.",
         features: ["WhatsApp Business API", "Automation flows", "Team inbox", "Contact management", "Campaign reporting", "Global messaging"],
         bestFor: ["International businesses."],
@@ -585,7 +598,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "delightchat",
-        name: "11. DelightChat",
+        name: "12. DelightChat",
         desc: "DelightChat is built mainly for Shopify stores looking to combine customer support and WhatsApp marketing.",
         features: ["WhatsApp broadcasts", "Shared inbox", "Shopify integration", "Order notifications", "Customer segmentation", "Team collaboration"],
         bestFor: ["Shopify and D2C brands."],
@@ -598,7 +611,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "sendpulse",
-        name: "12. SendPulse",
+        name: "13. SendPulse",
         desc: "SendPulse offers multi-channel marketing automation with WhatsApp, email, SMS, and chatbots.",
         features: ["WhatsApp campaigns", "Marketing automation", "CRM", "Landing pages", "Email marketing", "Chatbot builder"],
         bestFor: ["Small businesses and marketers."],
@@ -611,7 +624,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "brevo",
-        name: "13. Brevo (Formerly Sendinblue)",
+        name: "14. Brevo (Formerly Sendinblue)",
         desc: "Brevo combines email marketing, CRM, SMS, and WhatsApp messaging into one platform.",
         features: ["WhatsApp campaigns", "Marketing automation", "CRM", "Contact segmentation", "Analytics", "Transactional messaging"],
         bestFor: ["Businesses using multiple digital marketing channels."],
@@ -624,7 +637,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "zoko",
-        name: "14. Zoko",
+        name: "15. Zoko",
         desc: "Zoko is a WhatsApp-first customer engagement platform designed for eCommerce brands.",
         features: ["WhatsApp catalog", "Broadcast campaigns", "Cart recovery", "Shopify integration", "Team inbox", "Automation"],
         bestFor: ["Online stores and Shopify merchants."],
@@ -637,7 +650,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "infobip",
-        name: "15. Infobip",
+        name: "16. Infobip",
         desc: "Infobip is a global cloud communications platform that enables businesses to connect with customers through WhatsApp, SMS, email, voice, and other channels. It is widely used by enterprises that require secure, large-scale messaging.",
         features: ["Official WhatsApp Business API", "Omnichannel messaging", "Customer journey builder", "AI chatbot support", "Campaign automation", "Advanced analytics", "Enterprise-grade security"],
         bestFor: ["Enterprises, telecom companies, banks, and multinational businesses."],
@@ -650,7 +663,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "dialog360",
-        name: "16. 360dialog",
+        name: "17. 360dialog",
         desc: "360dialog is a Meta Business Solution Provider that offers direct access to the official WhatsApp Business API. It is popular among SaaS providers, agencies, and developers who need flexibility.",
         features: ["Official WhatsApp API", "Cloud API support", "CRM integrations", "Webhooks", "API documentation", "Team collaboration"],
         bestFor: ["Developers, SaaS companies, and digital agencies."],
@@ -663,7 +676,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "yellowai",
-        name: "17. Yellow.ai",
+        name: "18. Yellow.ai",
         desc: "Yellow.ai specializes in AI-powered conversational automation across multiple messaging channels, including WhatsApp.",
         features: ["AI chatbot", "Voice automation", "WhatsApp Business API", "Omnichannel support", "Workflow builder", "Advanced analytics"],
         bestFor: ["Enterprises focused on AI-driven customer support."],
@@ -676,7 +689,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "vonage",
-        name: "18. Vonage",
+        name: "19. Vonage",
         desc: "Vonage provides cloud communication APIs that enable businesses to integrate WhatsApp messaging into custom applications.",
         features: ["WhatsApp API", "Messaging APIs", "Voice APIs", "Video APIs", "Reporting", "Developer tools"],
         bestFor: ["Businesses building custom communication solutions."],
@@ -689,7 +702,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "kaleyra",
-        name: "19. Kaleyra",
+        name: "20. Kaleyra",
         desc: "Kaleyra is a cloud communication platform offering WhatsApp Business API, SMS, voice, and video solutions for customer engagement.",
         features: ["Official WhatsApp API", "Campaign management", "Analytics", "API integration", "Multi-channel communication", "Secure messaging"],
         bestFor: ["Banking, healthcare, logistics, and enterprise businesses."],
@@ -702,7 +715,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
       },
       {
         id: "trengo",
-        name: "20. Trengo",
+        name: "21. Trengo",
         desc: "Trengo is a customer communication platform that combines WhatsApp, email, live chat, and social media conversations into a unified inbox.",
         features: ["Shared inbox", "WhatsApp Business API", "Automation", "Knowledge base", "Team collaboration", "Analytics"],
         bestFor: ["Customer support teams and growing businesses."],
@@ -753,7 +766,7 @@ Top 20 WhatsApp Bulk Message Senders in 2026
           <div>
             <h4 className="font-bold text-red-700 mb-1.5">🔴 Cons</h4>
             <ul className="list-disc pl-4 space-y-1 text-gray-600">
-              {platform.cons.map((con, i) => <li key={i}>{con}</li>)}
+              {platform.cons.map((con, i) => <li key={con}>{con}</li>)}
             </ul>
           </div>
         </div>

@@ -49,6 +49,13 @@ import whatsapp44 from "../../assets/Images/schedulewhatsmssg.jpeg";
 const BlogDetails = () => {
 
   const blogs = [
+    // {
+    //    id: 45,
+    //   title: "WhatsApp API Pricing in India 2026: Everything Businesses Need to Know",
+    //   date: "July 18, 2026",
+    //   image: whatsapp45,
+    //   link: "/blog/whatsapp-api-pricing-india" 
+    // },
     {
      id: 44,
       title: "How to Schedule WhatsApp Messages: Complete Guide for Individuals & Businesses",
