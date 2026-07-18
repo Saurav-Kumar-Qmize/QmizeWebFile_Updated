@@ -107,11 +107,11 @@ const toc = [
   { id: "eighth", label: "8. Why Zero Markup Makes a Difference" },
   { id: "ninth", label: "9. Sample WhatsApp API Cost Calculation" },
   { id: "tenth", label: "10. WhatsApp Business App vs WhatsApp Business API" },
-  { id: "eleventh", label: "10. Who Should Use WhatsApp Business API?" },
-  { id: "twelfth", label: "10. Tips to Reduce WhatsApp API Costs" },
-  { id: "thirteenth", label: "10. Why Choose Qmize?" },
-  { id: "Fourteenth", label: "10. Final Thoughts" },
-  { id: "Fifteenth", label: "10. Frequently Asked Questions" },
+  { id: "eleventh", label: "11. Who Should Use WhatsApp Business API?" },
+  { id: "twelfth", label: "12. Tips to Reduce WhatsApp API Costs" },
+  { id: "thirteenth", label: "13. Why Choose Qmize?" },
+  { id: "Fourteenth", label: "14. Final Thoughts" },
+  { id: "Fifteenth", label: "15. Frequently Asked Questions" },
   
 ];
 

@@ -45,9 +45,17 @@ import whatsapp40 from "../../assets/Images/whatsapp-campaign.jpeg";
 import whatsapp41 from "../../assets/Images/whatsapp-auto-reply-samples.jpeg";
 import whatsapp42 from "../../assets/Images/whatsapp42.png";
 import whatsapp43 from "../../assets/Images/whatsappapipricing.jpeg";
+import whatsapp44 from "../../assets/Images/schedulewhatsmssg.jpeg";
 const BlogDetails = () => {
 
   const blogs = [
+    {
+     id: 44,
+      title: "How to Schedule WhatsApp Messages: Complete Guide for Individuals & Businesses",
+      date: "July 18, 2026",
+      image: whatsapp44,
+      link: "/blog/how-to-schedule-whatsapp-messages" 
+    },
     {
       id: 43,
       title: "WhatsApp API Pricing in India 2026: Everything Businesses Need to Know",
