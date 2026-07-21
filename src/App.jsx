@@ -174,101 +174,101 @@ const AppRoute = () => {
 
   // }, []);
 
- 
+
   // ✅ RETURN AFTER ALL HOOKS
   if (loading) return <Loader />;
 
   return (
     <BrowserRouter>
-    <LenisProvider> 
-   
-     <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/whatsapp-business-api" element={<APIwithLoader />} />
-        <Route path="/website-development-company-and-digital-agency" element={<WebsiteDev />} />
-        <Route path="/seo-services" element={<SEOServices />} />
-        <Route path="/press-release-services" element={<PRservice />} />
-        <Route path="/social-media-marketing" element={<SMM />} />
-        <Route path="/bulk-sms-services" element={<BulkSMS />} />
-        <Route path="/blogs" element={<MainBlogPage />} />
-        <Route path="/voice-broadcasting-service" element={<VoiceBroadcast />} />
-        <Route path="/otp-sms-service-provider" element={<OTPSMSService />} />
-        <Route path="/terms-and-conditions" element={<Terms />} />
-        <Route path="/privacy-policy" element={<Privacy />} />
-        <Route path="/no-spam-policy" element={<Nospam />} /> 
-        <Route path="/refund-policy" element={<Refund />} />
-        <Route path="/contact-us" element={<Contact />} />
-        <Route path="/whatsapp-api-integration-docs" element={<WhatsappDocs />} />
-        <Route path="/white-labled-bulk-sms-reseller-program" element={<Resellerguide />} />
-        <Route path="/dlt-support" element={<DLTSupport />} />
-        <Route path="/dlt-new-trai-rules" element={<DLTRules />} />
-        <Route path="/toll-free-number-for-business" element={<TollFree />} />
-        <Route path="/missed-call-service" element={<MissedCall />} />
-        <Route path="/missed-call-service" element={<MissedCall />} />
-        <Route path="/cloud-telephony-service" element={<CloudTelephony />} />
-        <Route path="/whatsapp-business-api-international" element={<WhatsappInter />} />
-        <Route path="/enterprise-messaging-for-uae-businesses" element={<UaePricing />} />
-        <Route path="/whatsapp-link-generator" element={<WhatsAppLink />} />
-        <Route path="/whatsapp-business-api-integration" element={<AppMarket />} />
-         <Route path="/whatsapp-qr-code-generator" element={<WhatsAppQRCode />} />
-        <Route path="/whatsapp-business-api-uae" element={<WhatsappbusinessApiUAE />} />
+      <LenisProvider>
 
-        
-        <Route path="/blog/top-10-whatsapp-business-api-provider-in-india" element={<FirstBlog/>}/>
-        <Route path="/blog/christmas-whatsapp-marketing-strategy" element={<SecondBlog/>}/>
-        <Route path="/transactional-sms" element={<TransactionalSMS/>}/>
-        <Route path="/promotional-sms" element={<PromotionalSMS/>}/>
-        <Route path="/blog/qmize-vs-traditional-digital-agencies-vs-cpaas-platforms" element={<ThirdBlog/>}/>
-        <Route path="/blog/qmize-powering-business-growth-through-smart-digital-marketing-and-it-solutions" element={<FourBlog/>}/>
-        <Route path="/blog/top-wati-alternatives-for-whatsapp-business" element={<FifthBlog/>}/>
-        <Route path="/blog/zoko-alternatives-india" element={<SixthBlog/>}/>
-        <Route path="/blog/gallabox-alternatives-india" element={<SeventhBlog/>}/>
-        <Route path="/blog/interakt-alternatives-whatsapp-marketing" element={<EighthBlog/>}/>
-        <Route path="/blog/aisensy-alternatives-india" element={<NineBlog/>}/>
-        <Route path="/blog/top-10-whatsapp-marketing-strategies" element={<TenthBlog/>}/>
-        <Route path="/blog/whatsapp-ecommerce-store-guide" element={<EleventhBlog/>}/>
-        <Route path="/blog/whatsapp-message-not-delivered" element={<TwelfthBlog/>}/>
-        <Route path="/blog/whatsapp-broadcast-vs-whatsapp-group" element={<ThirteenBlog/>}/>
-        <Route path="/blog/how-to-send-bulk-whatsapp-messages" element={<FourteenBlog/>}/>
-        <Route path="/blog/whatsapp-automation" element={<FifteenBlog/>}/>
-        <Route path="/blog/whatsapp-auto-reply" element={<SixteenBlog/>}/>
-        <Route path="/blog/mastering-whatsapp-sales-chat" element={<SeventeenBlog/>}/>
-        <Route path="/blog/5-game-changing-whatsapp-business-account-feature" element={<EighteenBlog/>}/>
-        <Route path="/blog/the-ultimate-whatsapp-api-integration-checklist" element={<NinteenBlog/>}/>
-        <Route path="/blog/whatsapp-verification-explained-steps-and-benefits" element={<TwentiethBlog/>}/>
-        <Route path="/blog/whatsApp-introduction-message" element={<TwentyOneBlog/>}/>
-        <Route path="/blog/whatsapp-marketing" element={<TwentyTwoBlog/>}/>
-        <Route path="/blog/top-10-bulk-sms-sevice-providers-in-india" element={<TwentyThreeBlog/>}/>
-        <Route path="/blog/how-to-convert-whatsapp-to-business-account" element={<TwentyFourBlog/>}/>
-        <Route path="/blog/whatsapp-cloud-api" element={<TwentyFiveBlog/>}/>
-        <Route path="/blog/whatsapp-business" element={<TwentySixBlog/>}/>
-        <Route path="/blog/whatsapp-business-web" element={<TwentysevenBlog/>}/>
-        <Route path="/blog/whatsapp-api-integration" element={<TwentyeightBlog/>}/>
-        <Route path="/blog/whatsapp-business-description" element={<TwentynineBlog/>}/>
-        <Route path="/blog/whatsapp-broadcast" element={<ThirtyBlog/>}/>
-        <Route path="/blog/whatsapp-blue-tick" element={<ThirtyOneBlog/>}/>   
-        <Route path="/blog/whatsapp-business-web-login-issues-fixes" element={<ThirtyTwoBlog/>}/>
-       <Route path="/blog/top-customer-engagement-platforms" element={<ThirtyThreeBlog/>} /> 
-       <Route path="/blog/whatsapp-message-template" element={<ThirtyFourBlog />} />
-       <Route path="/blog/whatsapp-chatbot" element={<ThirtyFiveBlog/>} /> 
-       <Route path="/blog/top-whatsapp-business-api-providers-uae" element={<ThirtySixBlog/>} /> 
-       <Route path="/blog/whatsapp-business-app" element={<ThirtySevenBlog/>}/>
-       <Route path="/blog/whatsapp-business-api" element={<ThirtyEightBlog/>}/>
-       <Route path="/blog/send-1000-whatsapp-messages-at-once" element={<ThirtyNineBlog/>}/>
-       <Route path="/blog/whatsapp-campaign" element={<FourtyBlog/>} />
-       <Route path="/blog/auto-reply-whatsapp-message-sample" element={<FourtyOneBlog/>} />
-       <Route path="/blog/top-whatsapp-bulk-message-senders" element={<FourtyTwoBlog/>} />
-       <Route path="/blog/whatsapp-api-pricing-india" element={<FourtyThreeBlog/>} />
-       <Route path="/blog/how-to-schedule-whatsapp-messages" element={<FourtyFourBlog/>} />
-       <Route path="" element={<FourtyFiveBlog/>} />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/whatsapp-business-api" element={<APIwithLoader />} />
+          <Route path="/website-development-company-and-digital-agency" element={<WebsiteDev />} />
+          <Route path="/seo-services" element={<SEOServices />} />
+          <Route path="/press-release-services" element={<PRservice />} />
+          <Route path="/social-media-marketing" element={<SMM />} />
+          <Route path="/bulk-sms-services" element={<BulkSMS />} />
+          <Route path="/blogs" element={<MainBlogPage />} />
+          <Route path="/voice-broadcasting-service" element={<VoiceBroadcast />} />
+          <Route path="/otp-sms-service-provider" element={<OTPSMSService />} />
+          <Route path="/terms-and-conditions" element={<Terms />} />
+          <Route path="/privacy-policy" element={<Privacy />} />
+          <Route path="/no-spam-policy" element={<Nospam />} />
+          <Route path="/refund-policy" element={<Refund />} />
+          <Route path="/contact-us" element={<Contact />} />
+          <Route path="/whatsapp-api-integration-docs" element={<WhatsappDocs />} />
+          <Route path="/white-labled-bulk-sms-reseller-program" element={<Resellerguide />} />
+          <Route path="/dlt-support" element={<DLTSupport />} />
+          <Route path="/dlt-new-trai-rules" element={<DLTRules />} />
+          <Route path="/toll-free-number-for-business" element={<TollFree />} />
+          <Route path="/missed-call-service" element={<MissedCall />} />
+          <Route path="/missed-call-service" element={<MissedCall />} />
+          <Route path="/cloud-telephony-service" element={<CloudTelephony />} />
+          <Route path="/whatsapp-business-api-international" element={<WhatsappInter />} />
+          <Route path="/enterprise-messaging-for-uae-businesses" element={<UaePricing />} />
+          <Route path="/whatsapp-link-generator" element={<WhatsAppLink />} />
+          <Route path="/whatsapp-business-api-integration" element={<AppMarket />} />
+          <Route path="/whatsapp-qr-code-generator" element={<WhatsAppQRCode />} />
+          <Route path="/whatsapp-business-api-uae" element={<WhatsappbusinessApiUAE />} />
 
-        <Route path="*" element={<NotFound />} />
 
-      </Routes>
+          <Route path="/blog/top-10-whatsapp-business-api-provider-in-india" element={<FirstBlog />} />
+          <Route path="/blog/christmas-whatsapp-marketing-strategy" element={<SecondBlog />} />
+          <Route path="/transactional-sms" element={<TransactionalSMS />} />
+          <Route path="/promotional-sms" element={<PromotionalSMS />} />
+          <Route path="/blog/qmize-vs-traditional-digital-agencies-vs-cpaas-platforms" element={<ThirdBlog />} />
+          <Route path="/blog/qmize-powering-business-growth-through-smart-digital-marketing-and-it-solutions" element={<FourBlog />} />
+          <Route path="/blog/top-wati-alternatives-for-whatsapp-business" element={<FifthBlog />} />
+          <Route path="/blog/zoko-alternatives-india" element={<SixthBlog />} />
+          <Route path="/blog/gallabox-alternatives-india" element={<SeventhBlog />} />
+          <Route path="/blog/interakt-alternatives-whatsapp-marketing" element={<EighthBlog />} />
+          <Route path="/blog/aisensy-alternatives-india" element={<NineBlog />} />
+          <Route path="/blog/top-10-whatsapp-marketing-strategies" element={<TenthBlog />} />
+          <Route path="/blog/whatsapp-ecommerce-store-guide" element={<EleventhBlog />} />
+          <Route path="/blog/whatsapp-message-not-delivered" element={<TwelfthBlog />} />
+          <Route path="/blog/whatsapp-broadcast-vs-whatsapp-group" element={<ThirteenBlog />} />
+          <Route path="/blog/how-to-send-bulk-whatsapp-messages" element={<FourteenBlog />} />
+          <Route path="/blog/whatsapp-automation" element={<FifteenBlog />} />
+          <Route path="/blog/whatsapp-auto-reply" element={<SixteenBlog />} />
+          <Route path="/blog/mastering-whatsapp-sales-chat" element={<SeventeenBlog />} />
+          <Route path="/blog/5-game-changing-whatsapp-business-account-feature" element={<EighteenBlog />} />
+          <Route path="/blog/the-ultimate-whatsapp-api-integration-checklist" element={<NinteenBlog />} />
+          <Route path="/blog/whatsapp-verification-explained-steps-and-benefits" element={<TwentiethBlog />} />
+          <Route path="/blog/whatsApp-introduction-message" element={<TwentyOneBlog />} />
+          <Route path="/blog/whatsapp-marketing" element={<TwentyTwoBlog />} />
+          <Route path="/blog/top-10-bulk-sms-sevice-providers-in-india" element={<TwentyThreeBlog />} />
+          <Route path="/blog/how-to-convert-whatsapp-to-business-account" element={<TwentyFourBlog />} />
+          <Route path="/blog/whatsapp-cloud-api" element={<TwentyFiveBlog />} />
+          <Route path="/blog/whatsapp-business" element={<TwentySixBlog />} />
+          <Route path="/blog/whatsapp-business-web" element={<TwentysevenBlog />} />
+          <Route path="/blog/whatsapp-api-integration" element={<TwentyeightBlog />} />
+          <Route path="/blog/whatsapp-business-description" element={<TwentynineBlog />} />
+          <Route path="/blog/whatsapp-broadcast" element={<ThirtyBlog />} />
+          <Route path="/blog/whatsapp-blue-tick" element={<ThirtyOneBlog />} />
+          <Route path="/blog/whatsapp-business-web-login-issues-fixes" element={<ThirtyTwoBlog />} />
+          <Route path="/blog/top-customer-engagement-platforms" element={<ThirtyThreeBlog />} />
+          <Route path="/blog/whatsapp-message-template" element={<ThirtyFourBlog />} />
+          <Route path="/blog/whatsapp-chatbot" element={<ThirtyFiveBlog />} />
+          <Route path="/blog/top-whatsapp-business-api-providers-uae" element={<ThirtySixBlog />} />
+          <Route path="/blog/whatsapp-business-app" element={<ThirtySevenBlog />} />
+          <Route path="/blog/whatsapp-business-api" element={<ThirtyEightBlog />} />
+          <Route path="/blog/send-1000-whatsapp-messages-at-once" element={<ThirtyNineBlog />} />
+          <Route path="/blog/whatsapp-campaign" element={<FourtyBlog />} />
+          <Route path="/blog/auto-reply-whatsapp-message-sample" element={<FourtyOneBlog />} />
+          <Route path="/blog/top-whatsapp-bulk-message-senders" element={<FourtyTwoBlog />} />
+          <Route path="/blog/whatsapp-api-pricing-india" element={<FourtyThreeBlog />} />
+          <Route path="/blog/how-to-schedule-whatsapp-messages" element={<FourtyFourBlog />} />
+          <Route path="/blog/top-whatsapp-marketing-software" element={<FourtyFiveBlog />} />
+
+          <Route path="*" element={<NotFound />} />
+
+        </Routes>
       </LenisProvider>
-    </BrowserRouter>  
+    </BrowserRouter>
   );
 };
 

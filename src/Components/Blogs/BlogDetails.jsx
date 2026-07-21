@@ -46,57 +46,58 @@ import whatsapp41 from "../../assets/Images/whatsapp-auto-reply-samples.jpeg";
 import whatsapp42 from "../../assets/Images/whatsapp42.png";
 import whatsapp43 from "../../assets/Images/whatsappapipricing.jpeg";
 import whatsapp44 from "../../assets/Images/schedulewhatsmssg.jpeg";
+import whatsapp45 from "../../assets/Images/whatsapmarktsoft.jpeg";
 const BlogDetails = () => {
 
   const blogs = [
-    // {
-    //    id: 45,
-    //   title: "WhatsApp API Pricing in India 2026: Everything Businesses Need to Know",
-    //   date: "July 18, 2026",
-    //   image: whatsapp45,
-    //   link: "/blog/whatsapp-api-pricing-india" 
-    // },
     {
-     id: 44,
+      id: 45,
+      title: "Top 10 WhatsApp Marketing Software for Bulk Messaging & Automation (2026)",
+      date: "July 21, 2026",
+      image: whatsapp45,
+      link: "/blog/top-whatsapp-marketing-software"
+    },
+    {
+      id: 44,
       title: "How to Schedule WhatsApp Messages: Complete Guide for Individuals & Businesses",
       date: "July 18, 2026",
       image: whatsapp44,
-      link: "/blog/how-to-schedule-whatsapp-messages" 
+      link: "/blog/how-to-schedule-whatsapp-messages"
     },
     {
       id: 43,
       title: "WhatsApp API Pricing in India 2026: Everything Businesses Need to Know",
       date: "July 11, 2026",
       image: whatsapp43,
-      link: "/blog/whatsapp-api-pricing-india" 
+      link: "/blog/whatsapp-api-pricing-india"
     },
-     {
+    {
       id: 42,
       title: "Top 20 WhatsApp Bulk Message Senders in 2026 ",
       date: "July 04, 2026",
       image: whatsapp42,
-      link: "/blog/top-whatsapp-bulk-message-senders" 
+      link: "/blog/top-whatsapp-bulk-message-senders"
     },
     {
       id: 41,
       title: "50+ Auto Reply WhatsApp Message Samples for Every Business Need",
       date: "June 13, 2026",
       image: whatsapp41,
-      link: "/blog/auto-reply-whatsapp-message-sample" 
+      link: "/blog/auto-reply-whatsapp-message-sample"
     },
     {
       id: 40,
       title: "WhatsApp Campaign: A Complete Guide to Drive Engagement, Leads, and Sales",
       date: "June 13, 2026",
       image: whatsapp40,
-      link: "/blog/whatsapp-campaign" 
+      link: "/blog/whatsapp-campaign"
     },
     {
       id: 39,
       title: "How to Send 1,000 WhatsApp Messages at Once Without Getting Your Number Blocked",
       date: "June 06, 2026",
       image: whatsapp39,
-      link: "/blog/send-1000-whatsapp-messages-at-once" 
+      link: "/blog/send-1000-whatsapp-messages-at-once"
     },
     {
       id: 38,
@@ -113,7 +114,7 @@ const BlogDetails = () => {
       link: "/blog/whatsapp-business-app"
     },
     {
-       id: 36,
+      id: 36,
       title: "Top 10 WhatsApp Business API Providers in UAE (2026 Guide for Businesses)",
       date: "May 23, 2026",
       image: whatsapp36,
@@ -127,18 +128,18 @@ const BlogDetails = () => {
       link: "/blog/whatsapp-chatbot"
     },
     {
-      id:34,
+      id: 34,
       title: "WhatsApp Message Template: Best WhatsApp Marketing Message Templates 2026",
       date: "May 16, 2026",
       image: whatsapp34,
       link: "/blog/whatsapp-message-template"
     },
     {
-     id: 33,
+      id: 33,
       title: "Top 10 Customer Engagement Platforms in 2026 | Best Tools & Software",
       date: "May 02, 2026",
       image: whatsapp33,
-      link: "/blog/top-customer-engagement-platforms"    
+      link: "/blog/top-customer-engagement-platforms"
     },
     {
       id: 32,
@@ -162,7 +163,7 @@ const BlogDetails = () => {
       image: whatsapp30,
       link: "/blog/whatsapp-broadcast",
     },
-     {
+    {
       id: 29,
       title: "100 WhatsApp Business Description Examples (2026) | Best Bio Ideas",
       date: "Apr 16, 2026",
