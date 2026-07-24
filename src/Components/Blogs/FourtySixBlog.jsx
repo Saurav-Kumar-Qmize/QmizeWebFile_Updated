@@ -115,22 +115,14 @@ const toc = [
   { id: "tenth", label: "10. Business Benefits Beyond Customer Support" },
   { id: "eleventh", label: "11. How Chatbots Improve Customer Satisfaction" },
   { id: "twelfth", label: "12. Human Support Still Matters" },
-  { id: "thirteen", label: "13. Choosing the Right WhatsApp Chatbot Platform" },
-  { id: "fourteen", label: "14. Industries Benefiting Most" },
-  { id: "fifteen", label: "15. Measuring Success After Chatbot Implementation" },
-  { id: "sixteen", label: "16. Why Indian SMEs Are Investing in WhatsApp Automation" },
-  { id: "seventeen", label: "17. How Qmize Helps SMEs Automate Customer Support" },
-  { id: "eighteen", label: "18. Frequently Asked Questions" },
+  { id: "thirteenth", label: "13. Choosing the Right WhatsApp Chatbot Platform" },
+  { id: "fourteenth", label: "14. Industries Benefiting Most" },
+  { id: "fifteenth", label: "15. Measuring Success After Chatbot Implementation" },
+  { id: "sixteenth", label: "16. Why Indian SMEs Are Investing in WhatsApp Automation" },
+  { id: "seventeenth", label: "17. How Qmize Helps SMEs Automate Customer Support" },
+  { id: "eighteenth", label: "18. Frequently Asked Questions" },
 
 
-
-
-
-
-
-
-
-  
 ];
 
 
@@ -1123,66 +1115,68 @@ to="https://qmize.com/"
 </section>
 
 {/* Frequently Asked Questions */}
-<section id="eighteenth" className="scroll-mt-28 animate-section mb-12">
-
-  <h2 className="text-xl sm:text-2xl font-bold text-emerald-700 mb-6">
+<section id="eighteenth" className="scroll-mt-28 animate-section">
+  <h2 className="text-xl sm:text-2xl font-bold text-emerald-700 mb-7">
     Frequently Asked Questions
   </h2>
 
-  <div className="space-y-6">
+  <div className="space-y-4">
 
-    <div>
-      <h3 className="text-lg font-semibold text-gray-800 mb-2">
-        Can a WhatsApp chatbot work 24/7?
-      </h3>
-      <p className="text-gray-700">
+    <details className="border rounded-lg p-4 bg-white group">
+      <summary className="font-semibold cursor-pointer text-gray-800">
+        1. Can a WhatsApp chatbot work 24/7?
+      </summary>
+      <p className="mt-2 text-gray-700">
         Yes. Once configured, a WhatsApp chatbot can respond to customer queries around the clock, even outside business hours.
       </p>
-    </div>
+    </details>
 
-    <div>
-      <h3 className="text-lg font-semibold text-gray-800 mb-2">
-        Do I need coding skills to build a WhatsApp chatbot?
-      </h3>
-      <p className="text-gray-700">
-        No. Most modern platforms, including <Link
-to="https://qmize.com/"
-        target="_blank"
-  rel="noopener noreferrer"
-   className="text-blue-600 underline hover:text-blue-800"
->{"     "} Qmize{"    "}</Link>,{"  "} offer no-code visual builders that let you create chatbot flows without programming knowledge.
+    <details className="border rounded-lg p-4 bg-white group">
+      <summary className="font-semibold cursor-pointer text-gray-800">
+        2. Do I need coding skills to build a WhatsApp chatbot?
+      </summary>
+      <p className="mt-2 text-gray-700">
+        No. Most modern platforms, including{" "}
+        <Link
+          to="https://qmize.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 underline hover:text-blue-800"
+        >
+          Qmize
+        </Link>{" "}
+        offer no-code visual builders that let you create chatbot flows without programming knowledge.
       </p>
-    </div>
+    </details>
 
-    <div>
-      <h3 className="text-lg font-semibold text-gray-800 mb-2">
-        Can customers still talk to a human agent?
-      </h3>
-      <p className="text-gray-700">
+    <details className="border rounded-lg p-4 bg-white group">
+      <summary className="font-semibold cursor-pointer text-gray-800">
+        3. Can customers still talk to a human agent?
+      </summary>
+      <p className="mt-2 text-gray-700">
         Absolutely. A chatbot can seamlessly transfer conversations to a live support representative whenever human assistance is required.
       </p>
-    </div>
+    </details>
 
-    <div>
-      <h3 className="text-lg font-semibold text-gray-800 mb-2">
-        Is a WhatsApp chatbot suitable for small businesses?
-      </h3>
-      <p className="text-gray-700">
+    <details className="border rounded-lg p-4 bg-white group">
+      <summary className="font-semibold cursor-pointer text-gray-800">
+        4. Is a WhatsApp chatbot suitable for small businesses?
+      </summary>
+      <p className="mt-2 text-gray-700">
         Yes. Small businesses can automate repetitive tasks, reduce response times, and provide professional customer support without hiring additional staff.
       </p>
-    </div>
+    </details>
 
-    <div>
-      <h3 className="text-lg font-semibold text-gray-800 mb-2">
-        Which industries benefit the most from WhatsApp chatbots?
-      </h3>
-      <p className="text-gray-700 mb-6">
+    <details className="border rounded-lg p-4 bg-white group">
+      <summary className="font-semibold cursor-pointer text-gray-800">
+        5. Which industries benefit the most from WhatsApp chatbots?
+      </summary>
+      <p className="mt-2 text-gray-700">
         E-commerce, healthcare, education, real estate, travel, retail, financial services, and many other customer-facing industries can significantly improve support efficiency with WhatsApp chatbots.
       </p>
-    </div>
+    </details>
 
   </div>
-
 </section>
 
 
