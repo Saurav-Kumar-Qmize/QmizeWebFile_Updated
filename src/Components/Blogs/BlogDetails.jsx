@@ -47,9 +47,19 @@ import whatsapp42 from "../../assets/Images/whatsapp42.png";
 import whatsapp43 from "../../assets/Images/whatsappapipricing.jpeg";
 import whatsapp44 from "../../assets/Images/schedulewhatsmssg.jpeg";
 import whatsapp45 from "../../assets/Images/whatsapmarktsoft.jpeg";
+import whatsapp46 from "../../assets/Images/whatsapp46.jpeg";
+
 const BlogDetails = () => {
 
   const blogs = [
+
+     {
+      id: 46,
+      title: "24/7 Customer Support Without the Staff: How WhatsApp Chatbots Are Transforming Indian SMEs",
+      date: "July 23, 2026",
+      image: whatsapp46,
+      link: "/blog/how-whatsapp-chatbots-help-indian-smes"
+    },
     {
       id: 45,
       title: "Top 10 WhatsApp Marketing Software for Bulk Messaging & Automation (2026)",
