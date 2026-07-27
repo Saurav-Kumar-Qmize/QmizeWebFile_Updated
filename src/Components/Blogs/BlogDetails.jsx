@@ -48,11 +48,20 @@ import whatsapp43 from "../../assets/Images/whatsappapipricing.jpeg";
 import whatsapp44 from "../../assets/Images/schedulewhatsmssg.jpeg";
 import whatsapp45 from "../../assets/Images/whatsapmarktsoft.jpeg";
 import whatsapp46 from "../../assets/Images/whatsapp46.jpeg";
+import whatsapp47 from "../../assets/Images/whatsapp47.jpeg";
 
 const BlogDetails = () => {
 
   const blogs = [
 
+     {
+      id: 47,
+      title: "The Complete Meta-Certified WhatsApp Business API Provider Checklist for 2026",
+      date: "July 24, 2026",
+      image: whatsapp47,
+      link: "/blog/meta-certified-whatsapp-business-api-provider-checklist"
+    },
+    
      {
       id: 46,
       title: "24/7 Customer Support Without the Staff: How WhatsApp Chatbots Are Transforming Indian SMEs",
