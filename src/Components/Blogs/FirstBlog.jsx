@@ -306,8 +306,9 @@ export default function BlogLayout() {
                 <p className="text-gray-700 mt-2 mb-4">Here is a quick list of top 10 whatsapp Business API Providers in India.</p>
                 <ul className="space-y-2 text-gray-700 text-[15px] sm:text-base list-decimal ml-5">
                   <li><Link to="/"><strong>Qmize:</strong></Link>  India-origin global WhatsApp Business API provider with robust automation, campaign management, and customer engagement solutions.</li>
-                  <li><strong>Gupshup:</strong>  Strong presence in India and popular with enterprises.</li>
                   <li><strong>WATI:</strong>  SMB-friendly platform with easy onboarding and automation tools.</li>
+                  <li><strong>Getgabs:</strong>   Official WhatsApp Business API provider offering AI-driven automation, built-in CRM, and bulk broadcasting at 0% markup on Meta cost.</li>
+                  <li><strong>Gupshup:</strong>  Strong presence in India and popular with enterprises.</li>
                   <li><strong>Twilio:</strong>  Global infrastructure, powerful APIs and developer tools.</li>
                   <li><strong>Karix (mGage/Karix):</strong>  Prominent Indian CPaaS with multi-channel messaging.
                   </li>
@@ -315,8 +316,6 @@ export default function BlogLayout() {
                   <li><strong> Infobip:</strong>  Enterprise-grade orchestration and conversations platform.</li>
                   <li><strong>Kaleyra:</strong>  Full-stack CPaaS with WhatsApp integrations.</li>
                   <li><strong>MessageBird:</strong>  Global omnichannel platform with WhatsApp support.</li>
-                  <li><strong>Vonage (Nexmo):</strong> Developer-first BSP with reliable global reach.</li>
-
 
                 </ul>
               </section>
@@ -675,13 +674,6 @@ export default function BlogLayout() {
                         <td className="py-3 px-4">Dedicated local support</td>
                       </tr>
 
-                      <tr className="border-b hover:bg-gray-50 bg-gray-50/50">
-                        <td className="py-3 px-4 font-semibold">Gupshup</td>
-                        <td className="py-3 px-4">Chatbots, templates, analytics, API access</td>
-                        <td className="py-3 px-4">Pay-per-message + platform fee</td>
-                        <td className="py-3 px-4">High-volume Indian businesses</td>
-                        <td className="py-3 px-4">India-based</td>
-                      </tr>
 
                       <tr className="border-b hover:bg-gray-50">
                         <td className="py-3 px-4 font-semibold">WATI</td>
@@ -689,6 +681,22 @@ export default function BlogLayout() {
                         <td className="py-3 px-4">Monthly plans</td>
                         <td className="py-3 px-4">SMBs & startups</td>
                         <td className="py-3 px-4">Email + chat</td>
+                      </tr>
+
+                      <tr className="border-b hover:bg-gray-50">
+                        <td className="py-3 px-4 font-semibold">Getgabs</td>
+                        <td className="py-3 px-4">WhatsApp Business API, bulk messaging, shared team inbox, chatbot builder, automation, CRM integration</td>
+                        <td className="py-3 px-4">Flexible subscription plans with 0% markup at Meta cost</td>
+                        <td className="py-3 px-4">SMBs, E-commerce& growing businesses</td>
+                        <td className="py-3 px-4">Dedicated support</td>
+                      </tr>
+
+                       <tr className="border-b hover:bg-gray-50 bg-gray-50/50">
+                        <td className="py-3 px-4 font-semibold">Gupshup</td>
+                        <td className="py-3 px-4">Chatbots, templates, analytics, API access</td>
+                        <td className="py-3 px-4">Pay-per-message + platform fee</td>
+                        <td className="py-3 px-4">High-volume Indian businesses</td>
+                        <td className="py-3 px-4">India-based</td>
                       </tr>
 
                       <tr className="border-b hover:bg-gray-50 bg-gray-50/50">
@@ -739,13 +747,7 @@ export default function BlogLayout() {
                         <td className="py-3 px-4">Email + docs</td>
                       </tr>
 
-                      <tr className="hover:bg-gray-50 bg-gray-50/50">
-                        <td className="py-3 px-4 font-semibold">Vonage</td>
-                        <td className="py-3 px-4">APIs, omnichannel communication</td>
-                        <td className="py-3 px-4">Pay-as-you-use</td>
-                        <td className="py-3 px-4">Developers & SaaS</td>
-                        <td className="py-3 px-4">24/7 support</td>
-                      </tr>
+          
 
                     </tbody>
                   </table>
@@ -759,7 +761,7 @@ export default function BlogLayout() {
                 <ul className="ml-5 list-disc">
                   <li className="text-gray-700 text-[15px] sm:text-base" >Volume & scale: High volume? Prioritize providers with telco/enterprise throughput (Route Mobile, Twilio, Infobip)</li>
                   <li className="text-gray-700 text-[15px] sm:text-base" >Developer resources: If you have devs, pick a developer-first BSP (Twilio, Vonage).</li>
-                  <li className="text-gray-700 text-[15px] sm:text-base" >Budget: Compare platform fees + Meta conversation fees - not just the headline monthly plan. Gupshup and some local BSPs can be cost-competitive.</li>
+                  <li className="text-gray-700 text-[15px] sm:text-base" >Budget: Compare platform fees + Meta conversation fees - not just the headline monthly plan. Gupshup and some local BSPs can be cost-competitive. Qmize and Getgabs stands out here with 0% markup on Meta cost and no setup fees.</li>
                   <li className="text-gray-700 text-[15px] sm:text-base" >Automation needs: Want built-in bots, flows and a shared inbox? WATI, Infobip, MessageBird and Gupshup have solid products.</li>
                   <li className="text-gray-700 text-[15px] sm:text-base" >Support & local presence: If India-based support matters, choose providers with local teams (Qmize , Gupshup, Karix, Route Mobile, Kaleyra).</li>
 
@@ -771,7 +773,7 @@ export default function BlogLayout() {
                 <ul className="ml-5 list-disc">
                   <li className="text-gray-700 text-[15px] sm:text-base" >E-commerce (order updates + support): WATI or Gupshup for easy automations + affordable tiers.</li>
                   <li className="text-gray-700 text-[15px] sm:text-base" >Banking / regulated industry: Kaleyra or Infobip for compliance and secure delivery.</li>
-                  <li className="text-gray-700 text-[15px] sm:text-base" >Global SaaS / high customization: Twilio or MessageBird for global reach and developer tooling.</li>
+                  <li className="text-gray-700 text-[15px] sm:text-base" >Global SaaS / high customization: Getgabs, Twilio, or MessageBird for global reach and developer tooling.</li>
                   <li className="text-gray-700 text-[15px] sm:text-base" >High-volume transactional SMS+WhatsApp: Qmize, Route Mobile or Karix for telco-grade throughput.</li>
                   <li className="text-gray-700 text-[15px] sm:text-base" >Support & local presence: If India-based support matters, choose providers with local teams (Qmize , Gupshup, Karix, Route Mobile, Kaleyra).</li>
 
