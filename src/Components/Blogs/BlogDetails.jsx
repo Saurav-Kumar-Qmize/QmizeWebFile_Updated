@@ -49,10 +49,20 @@ import whatsapp44 from "../../assets/Images/schedulewhatsmssg.jpeg";
 import whatsapp45 from "../../assets/Images/whatsapmarktsoft.jpeg";
 import whatsapp46 from "../../assets/Images/whatsapp46.jpeg";
 import whatsapp47 from "../../assets/Images/whatsapp47.jpeg";
+import whatsapp48 from "../../assets/Images/waba_marketing.jpeg";
 
 const BlogDetails = () => {
 
   const blogs = [
+
+      {
+      id: 48,
+      title: "Send WhatsApp Messages for Marketing with 0% Markup Charge: Grow Your Business at Lower Cost",
+      date: "July 27, 2026",
+      image: whatsapp48,
+      link: "/blog/send-whatsapp-messages-0-markup-charge"
+    },
+
 
      {
       id: 47,
