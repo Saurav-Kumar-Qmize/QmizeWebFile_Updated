@@ -1989,10 +1989,6 @@ export default function BlogLayout() {
               </section>
 
 
-
-
-
-
               <section className="scroll-mt-28 animate-section">
                 <div className="bg-gradient-to-r from-emerald-600 to-green-500 rounded-2xl px-6 py-10 sm:px-10 sm:py-14 text-center shadow-lg">
 

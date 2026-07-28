@@ -50,10 +50,20 @@ import whatsapp45 from "../../assets/Images/whatsapmarktsoft.jpeg";
 import whatsapp46 from "../../assets/Images/whatsapp46.jpeg";
 import whatsapp47 from "../../assets/Images/whatsapp47.jpeg";
 import whatsapp48 from "../../assets/Images/waba_marketing.jpeg";
+import whatsapp49 from "../../assets/Images/whatsapp49.jpeg";
 
 const BlogDetails = () => {
 
   const blogs = [
+
+      {
+      id: 49,
+      title: "WhatsApp vs SMS for Businesses: Which Communication Channel Delivers Better Results in 2026",
+      date: "July 28, 2026",
+      image: whatsapp49,
+      link: "/blog/whatsapp-vs-sms-for-businesses"
+    },
+
 
       {
       id: 48,

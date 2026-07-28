@@ -1109,7 +1109,7 @@ to="https://qmize.com/"
         target="_blank"
   rel="noopener noreferrer"
    className="text-blue-600 underline hover:text-blue-800"
->{"          "} Qmize{"   "}</Link> enables you to deliver fast, reliable, and scalable customer support on WhatsApp without expanding your support team.
+>{"          "} Qmize</Link>{" "} enables you to deliver fast, reliable, and scalable customer support on WhatsApp without expanding your support team.
   </p>
 
 </section>
