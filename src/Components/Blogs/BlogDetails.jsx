@@ -52,10 +52,21 @@ import whatsapp47 from "../../assets/Images/whatsapp47.jpeg";
 import whatsapp48 from "../../assets/Images/waba_marketing.jpeg";
 import whatsapp49 from "../../assets/Images/whatsapp49.jpeg";
 import whatsapp50 from "../../assets/Images/whatsapp50.jpeg";
+import whatsapp51 from "../../assets/Images/whatsapp51.jpeg";
 
 const BlogDetails = () => {
 
   const blogs = [
+
+     {
+      id: 51,
+      title: "10+ Best WhatsApp Automation Tools for Businesses in 2026",
+      date: "August 04, 2026",
+      image: whatsapp51,
+      link: "/blog/best-whatsapp-automation-tools/"
+    },
+
+
 
     {
       id: 50,
