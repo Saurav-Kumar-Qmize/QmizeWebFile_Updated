@@ -51,10 +51,19 @@ import whatsapp46 from "../../assets/Images/whatsapp46.jpeg";
 import whatsapp47 from "../../assets/Images/whatsapp47.jpeg";
 import whatsapp48 from "../../assets/Images/waba_marketing.jpeg";
 import whatsapp49 from "../../assets/Images/whatsapp49.jpeg";
+import whatsapp50 from "../../assets/Images/whatsapp50.jpeg";
 
 const BlogDetails = () => {
 
   const blogs = [
+
+    {
+      id: 50,
+      title: "What Is WhatsApp Business Messaging and How to Use It?",
+      date: "August 01, 2026",
+      image: whatsapp50,
+      link: "/blog/whatsapp-business-messaging/"
+    },
 
       {
       id: 49,
