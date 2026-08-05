@@ -78,6 +78,9 @@ import ThirtyFourBlog from "./Components/Blogs/ThirtyFourBlog";
 import ThirtyFiveBlog from "./Components/Blogs/ThirtyFiveBlog";
 import ThirtySixBlog from "./Components/Blogs/ThirtySixBlog";
 import WhatsappbusinessApiUAE from "./Components/Pages/WhatsappbusinessApiUAE";
+import WhatsappbusinessApiSaudiArabia from "./Components/Pages/WhatsappbusinessApiSaudiArabia";
+
+
 
 
 import ThirtySevenBlog from "./Components/Blogs/ThirtySevenBlog";
@@ -221,6 +224,7 @@ const AppRoute = () => {
           <Route path="/whatsapp-business-api-integration" element={<AppMarket />} />
           <Route path="/whatsapp-qr-code-generator" element={<WhatsAppQRCode />} />
           <Route path="/whatsapp-business-api-uae" element={<WhatsappbusinessApiUAE />} />
+          <Route path="/whatsapp-business-api-saudi-arabia" element={<WhatsappbusinessApiSaudiArabia />} />
 
 
           <Route path="/blog/top-10-whatsapp-business-api-provider-in-india" element={<FirstBlog />} />
