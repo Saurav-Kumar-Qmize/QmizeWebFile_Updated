@@ -3216,6 +3216,7 @@ px-4 sm:px-6 overflow-hidden">
     </div>
 
     {/* LINE */}
+    
     <div className="w-full h-[1px] bg-black/10 my-4"></div>
 
     {/* LIMITS SECTION */}

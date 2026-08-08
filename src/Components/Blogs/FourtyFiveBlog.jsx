@@ -14,12 +14,13 @@ import christmasImage from "../../assets/Images/christmas_offer_blog.webp";
 import bestwhatsapmarktsoft from "../../assets/Images/bestwhatsapmarktsoftw.jpeg";
 import brevo from "../../assets/Images/brevo.jpeg";
 import gallabox from "../../assets/Images/gallabox.jpeg";
-import gupshup from "../../assets/Images/gupshupai.jpeg";
+// import gupshup from "../../assets/Images/gupshupai.jpeg";
 import interackt from "../../assets/Images/interackt.jpeg";
 import respondio from "../../assets/Images/respondio.jpeg";
 import twilio from "../../assets/Images/twilio.jpeg";
 import watiwhatsapptool from "../../assets/Images/watiwhatsapptool.jpeg";
 import whatsapmarketsoft from "../../assets/Images/whatsapmarktsoft.jpeg";
+import getgabs from "../../assets/Images/getgabs.jpeg";
 
 
 
@@ -742,6 +743,16 @@ export default function BlogLayout() {
                       </tr>
 
                       <tr>
+                        <td className="p-3 border font-medium">Getgabs</td>
+                        <td className="p-3 border">SMBs</td>
+                        <td className="p-3 border">✅</td>
+                        <td className="p-3 border">✅</td>
+                        <td className="p-3 border">✅</td>
+                        <td className="p-3 border">Yes</td>
+                        <td className="p-3 border">From $5/month</td>
+                      </tr>
+
+                      <tr>
                         <td className="p-3 border font-medium">AiSensy</td>
                         <td className="p-3 border">SMBs</td>
                         <td className="p-3 border">✅</td>
@@ -821,15 +832,6 @@ export default function BlogLayout() {
                         <td className="p-3 border">Custom</td>
                       </tr>
 
-                      <tr>
-                        <td className="p-3 border font-medium">Gupshup</td>
-                        <td className="p-3 border">Enterprises</td>
-                        <td className="p-3 border">✅</td>
-                        <td className="p-3 border">✅</td>
-                        <td className="p-3 border">✅</td>
-                        <td className="p-3 border">Custom</td>
-                        <td className="p-3 border">Custom</td>
-                      </tr>
 
                     </tbody>
                   </table>
@@ -967,7 +969,90 @@ export default function BlogLayout() {
                     >{"  "}WhatsApp marketing strategy {" "}</Link> in 2026.
                   </p>
 
-                  <p className="font-bold text-lg">2. AiSensy – Best for Small & Medium Businesses</p>
+
+
+                  <p className="font-bold text-lg">2. GetGabs – Best for AI-Powered WhatsApp Marketing</p>
+
+                  <img
+                    src={getgabs}
+                    alt="GetGabs WhatsApp marketing platform"
+                    className="mt-2 mb-4 rounded-xl w-full"
+                  />
+
+                  <p>
+                    <a
+                      href="https://getgabs.com/whatsapp-marketing/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 underline hover:text-blue-800"
+                    >
+                      GetGabs
+                    </a>{" "}
+                    is an AI-powered WhatsApp marketing software built for businesses that want to automate marketing, sales, and customer engagement from a single platform. As an <strong>Official Meta Business Partner</strong>, GetGabs enables businesses to run personalized WhatsApp campaigns, automate conversations with AI-powered chatbots, manage customer relationships through a built-in WhatsApp CRM, and collaborate seamlessly using a shared team inbox.
+                  </p>
+
+                  <p>
+                    The platform is designed for SMBs, eCommerce brands, agencies, and enterprises looking to scale customer communication without technical complexity. It also integrates with Shopify, CRM systems, and Click-to-WhatsApp Ads, making it easy to automate lead generation, customer support, and sales workflows.
+                  </p>
+
+                  <p className="my-3">Key Features</p>
+
+                  <ul className="list-disc ml-6 space-y-1">
+                    <li>Official WhatsApp Business API Provider</li>
+                    <li>AI-powered Chatbot AI Agent</li>
+                    <li>Bulk WhatsApp Broadcasting with personalized messaging</li>
+                    <li>Built-in WhatsApp CRM</li>
+                    <li>Shared Team Inbox</li>
+                    <li>Automated Drip Campaigns  Follow-up Workflows</li>
+                    <li>Click-to-WhatsApp Ads Integration</li>
+                    <li>Shopify eCommerce Integration</li>
+                    <li>CRM Integrations  Workflow Automation</li>
+                    <li>WhatsApp Chat Widget</li>
+                    <li>No-code Chatbot Builder</li>
+                    <li>Voice Calling Support</li>
+                    <li>Campaign Analytics Performance Reporting</li>
+                  </ul>
+
+                  <p className="my-3">Pros</p>
+
+                  <ul className="list-disc ml-6">
+                    <li>Official Meta Business Partner</li>
+                    <li>Zero setup fees</li>
+                    <li>No markup on Meta conversation charges</li>
+                    <li>Affordable pricing starting at $5/month</li>
+                    <li>AI chatbot, CRM, broadcasting, and automation in one platform</li>
+                    <li>Excellent for marketing, sales, and customer engagement</li>
+                  </ul>
+
+                  <p className="my-3">Cons</p>
+
+                  <ul className="list-disc ml-6">
+                    <li>No free plan available</li>
+                    <li>Advanced enterprise features may require a custom plan</li>
+                  </ul>
+
+                  <p className="my-3">Pricing</p>
+
+                  <p>
+                    Starts from <span className="font-bold">$5/month</span> (Basic plan), with{" "}
+                    <span className="font-bold">Plus at $11/month</span> and{" "}
+                    <span className="font-bold">Pro at $59/month</span>.
+                  </p>
+
+                  <p className="my-3">Best For</p>
+
+                  <ul className="list-disc ml-6">
+                    <li>Small and medium-sized businesses (SMBs)</li>
+                    <li>eCommerce brands</li>
+                    <li>Startups</li>
+                    <li>Marketing agencies</li>
+                    <li>Sales and customer support teams</li>
+                    <li>Enterprises looking for an affordable WhatsApp Business API platform with AI automation, CRM, and bulk messaging</li>
+                  </ul>
+
+
+
+                  <p className="font-bold text-lg">3. AiSensy – Best for Small & Medium Businesses</p>
                   <img
                     src={aisensy}
                     alt="AiSensy WhatsApp marketing platform"
@@ -1030,7 +1115,7 @@ export default function BlogLayout() {
                     <li>Marketing agencies</li>
                   </ul>
 
-                  <p className="font-bold text-lg">3. WATI – Best for Customer Support Teams</p>
+                  <p className="font-bold text-lg">4. WATI – Best for Customer Support Teams</p>
                   <img
                     src={watiwhatsapptool}
                     alt=" Wati WhatsApp marketing tool"
@@ -1091,7 +1176,7 @@ export default function BlogLayout() {
                     <li>Enterprises</li>
                   </ul>
 
-                  <p className="font-bold text-lg">4. Interakt – Best for D2C & E-commerce Brands</p>
+                  <p className="font-bold text-lg">5. Interakt – Best for D2C & E-commerce Brands</p>
 
 
                   <img
@@ -1154,7 +1239,7 @@ export default function BlogLayout() {
                     <li>Retail businesses</li>
                   </ul>
 
-                  <p className="font-bold text-lg">5. Gallabox – Best for AI Automation & Sales</p>
+                  <p className="font-bold text-lg">6. Gallabox – Best for AI Automation & Sales</p>
 
                   <img
                     src={gallabox}
@@ -1218,7 +1303,7 @@ export default function BlogLayout() {
                     <li>Small and medium businesses</li>
                   </ul>
 
-                  <p className="font-bold text-lg">6. Respond.io – Best Omnichannel Customer Communication Platform</p>
+                  <p className="font-bold text-lg">7. Respond.io – Best Omnichannel Customer Communication Platform</p>
 
                   <img
                     src={respondio}
@@ -1280,7 +1365,7 @@ export default function BlogLayout() {
                     <li>Businesses using multiple messaging channels</li>
                   </ul>
 
-                  <p className="font-bold text-lg">7. Brevo – Best for Multi-Channel Marketing</p>
+                  <p className="font-bold text-lg">8. Brevo – Best for Multi-Channel Marketing</p>
 
                   <img
                     src={brevo}
@@ -1343,7 +1428,7 @@ export default function BlogLayout() {
                     <li>Businesses running email and WhatsApp campaigns together</li>
                   </ul>
 
-                  <p className="font-bold text-lg">8. Twilio – Best for Developers and Custom Integrations</p>
+                  <p className="font-bold text-lg">9. Twilio – Best for Developers and Custom Integrations</p>
                   <img
                     src={twilio}
                     alt="WhatsApp marketing platform business"
@@ -1407,7 +1492,7 @@ export default function BlogLayout() {
                     <li>Custom software solutions</li>
                   </ul>
 
-                  <p className="font-bold text-lg">9. 360dialog – Best WhatsApp API Provider for Integrations</p>
+                  <p className="font-bold text-lg">10. 360dialog – Best WhatsApp API Provider for Integrations</p>
 
                   <img
                     src={dialog}
@@ -1469,71 +1554,6 @@ export default function BlogLayout() {
                     <li>Enterprises building custom WhatsApp solutions</li>
                   </ul>
 
-                  <p className="font-bold text-lg">10. Gupshup – Best for Enterprise Messaging</p>
-
-                  <img
-                    src={gupshup}
-                    alt="WhatsApp marketing software for enterprise"
-                    className="mt-2 mb-4 rounded-xl w-full"
-                  />
-
-                  <p>
-                    Gupshup is one of the oldest and most established conversational messaging platforms. It supports WhatsApp Business API along with several other messaging channels, enabling enterprises to automate customer engagement at scale.
-                  </p>
-
-                  <p>
-                    Its platform includes AI-powered chatbots, conversational commerce, campaign management, and enterprise integrations.
-                  </p>
-
-                  <p className="my-3">Key Features</p>
-
-                  <ul className="list-disc ml-6">
-                    <li>Official WhatsApp Business API</li>
-                    <li>AI chatbot platform</li>
-                    <li>Campaign management</li>
-                    <li>Broadcast messaging</li>
-                    <li>CRM integrations</li>
-                    <li>Omnichannel communication</li>
-                    <li>Developer APIs</li>
-                    <li>Analytics dashboard</li>
-                    <li>Customer journey automation</li>
-                    <li>Enterprise security</li>
-                  </ul>
-
-                  <p className="my-3">Pros</p>
-
-                  <ul className="list-disc ml-6">
-                    <li>Enterprise-grade platform</li>
-                    <li>Strong chatbot capabilities</li>
-                    <li>Global messaging support</li>
-                    <li>Reliable infrastructure</li>
-                    <li>Advanced automation</li>
-                  </ul>
-
-                  <p className="my-3">Cons</p>
-
-                  <ul className="list-disc ml-6">
-                    <li>Pricing is customized</li>
-                    <li>More suitable for medium and large businesses than startups</li>
-                  </ul>
-
-                  <p className="my-3">Pricing</p>
-
-                  <p>
-                    Custom pricing based on business needs and messaging volume.
-                  </p>
-
-                  <p className="my-3">Best For</p>
-
-                  <ul className="list-disc ml-6">
-                    <li>Large enterprises</li>
-                    <li>Banking</li>
-                    <li>Insurance</li>
-                    <li>Telecom</li>
-                    <li>E-commerce</li>
-                    <li>Healthcare</li>
-                  </ul>
-
                 </div>
 
 
@@ -1551,6 +1571,7 @@ export default function BlogLayout() {
                       <tr>
                         <th className="px-4 py-2 border">Feature</th>
                         <th className="px-4 py-2 border">Qmize</th>
+                        <th className="px-4 py-2 border">Getgabs</th>
                         <th className="px-4 py-2 border">AiSensy</th>
                         <th className="px-4 py-2 border">WATI</th>
                         <th className="px-4 py-2 border">Interakt</th>
@@ -1559,7 +1580,6 @@ export default function BlogLayout() {
                         <th className="px-4 py-2 border">Brevo</th>
                         <th className="px-4 py-2 border">Twilio</th>
                         <th className="px-4 py-2 border">360dialog</th>
-                        <th className="px-4 py-2 border">Gupshup</th>
                       </tr>
                     </thead>
                     <tbody>
