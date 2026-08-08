@@ -659,7 +659,7 @@ const ServiceSection = () => {
           "Integration Marketplace",
           "Round Robin Assignment",
           "Automated Follow Ups",
-          "Google Sheet Integration Free"
+         
         ],
         limit: [
           "Team Members - Unlimited",
@@ -945,7 +945,7 @@ const ServiceSection = () => {
           "Integration Marketplace",
           "Round Robin Assignment",
           "Automated Follow Ups",
-          "Google Sheet Integration Free"
+      
         ],
         limit: [
           "Team Members - Unlimited",
@@ -1231,7 +1231,7 @@ const ServiceSection = () => {
           "Integration Marketplace",
           "Round Robin Assignment",
           "Automated Follow Ups",
-          "Google Sheet Integration Free"
+        
         ],
         limit: [
           "Team Members - Unlimited",
