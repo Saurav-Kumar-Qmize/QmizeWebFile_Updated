@@ -242,7 +242,7 @@ const ServiceSection = () => {
     "Team Roles - Unlimited": "Max 100 team roles allowed",
     "Max Tags - Unlimited": "Max 100 tags allowed",
     "Max Attributes - Unlimited": "Max 100 attributes allowed.",
-    "Max Contacts Import - Unlimited": "Unlimited contacts import allowed",
+    "Max Contacts Import - Unlimited": "Max 1 crore contacts allowed",
     "Webhook Limit - Unlimited": "Max 100 webhooks allowed",
   };
 
@@ -3237,11 +3237,12 @@ px-4 sm:px-6 overflow-hidden">
                           <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
                           <span className="text-black/60 flex items-start gap-1.5">
                             <span className="mt-[2px]">{limit}</span>
-                            {plan.name === "Ultimate Plan" && limit.includes("Unlimited") && (
-                              <span title={unlimitedTooltipMap[limit] || ""} className="cursor-pointer text-gray-500 hover:text-gray-800 shrink-0 mt-[4px]">
-                                <Info size={14} />
-                              </span>
-                            )}
+                         {["Ultimate Plan", "Pro Plan"].includes(plan.name) && limit.includes("Unlimited") && (
+  <span title={unlimitedTooltipMap[limit] || ""} className="cursor-pointer text-gray-500 hover:text-gray-800 shrink-0 mt-[4px]">
+    <Info size={14} />
+  </span>
+)}
+
                           </span>
                         </li>
                       ))}
