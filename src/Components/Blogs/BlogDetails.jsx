@@ -54,10 +54,19 @@ import whatsapp49 from "../../assets/Images/whatsapp49.jpeg";
 import whatsapp50 from "../../assets/Images/whatsapp50.jpeg";
 import whatsapp51 from "../../assets/Images/whatsapp51.jpeg";
 import whatsapp52 from "../../assets/Images/whatsapp52.jpeg";
+import whatsapp53 from "../../assets/Images/whatsapp53.jpeg";
 
 const BlogDetails = () => {
 
   const blogs = [
+
+    {
+      id: 53,
+      title: "10 Best WhatsApp Business API Providers in Saudi Arabia (2026)",
+      date: "August 19, 2026",
+      image: whatsapp53,
+      link: "/blog/best-whatsapp-business-api-providers-in-saudi-arabia"
+    },
 
     {
       id: 52,
