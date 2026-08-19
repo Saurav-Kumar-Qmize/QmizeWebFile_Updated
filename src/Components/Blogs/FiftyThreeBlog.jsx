@@ -252,7 +252,7 @@ const toc = [
 
         {/* META INFO */}
         <p className="text-gray-500 text-xs sm:text-sm">
-          Updated on 19 August 2026 • 18 min read
+          Updated on 17 August 2026 • 18 min read
         </p>
 
         {/* SECTION 1: INTRODUCTION */}

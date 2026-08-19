@@ -100,6 +100,7 @@ import FiftyBlog from "./Components/Blogs/FiftyBlog";
 import FiftyOneBlog from "./Components/Blogs/FiftyOneBlog";
 import FiftyTwoBlog from "./Components/Blogs/FiftyTwoBlog";
 import FiftyThreeBlog from "./Components/Blogs/FiftyThreeBlog";
+import FiftyFourBlog from "./Components/Blogs/FiftyFourBlog";
 
 const LenisProvider = ({ children }) => {
   const location = useLocation();
@@ -284,6 +285,7 @@ const AppRoute = () => {
          <Route path="/blog/best-whatsapp-automation-tools/" element={<FiftyOneBlog />} />            
          <Route path="/blog/faq-chatbot/" element={<FiftyTwoBlog />} />            
          <Route path="/blog/best-whatsapp-business-api-providers-in-saudi-arabia" element={<FiftyThreeBlog />} />            
+         <Route path="/blog/whatsapp-chatbot-example" element={<FiftyFourBlog />} />            
 
 
 
