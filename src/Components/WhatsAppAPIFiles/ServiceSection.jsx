@@ -439,7 +439,7 @@ const ServiceSection = () => {
           "Webhook Limit - 1"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 1",
+          "Catalogue + Flow Builder - ₹2999 ",
           "Google Dialogflow Chatbots - Free"
 
         ]
@@ -479,7 +479,7 @@ const ServiceSection = () => {
           "Max Contacts Import - 10000"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 1",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - No",
         ]
       },
@@ -523,7 +523,7 @@ const ServiceSection = () => {
           "Max Contacts Import - 50000"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - Free",
         ]
       },
@@ -569,7 +569,7 @@ const ServiceSection = () => {
           "Max Contacts Import - 100000"
         ],
         chatbots: [
-          "Catalogue + Flow Builder- 5",
+          "Catalogue + Flow Builder- ₹2999",
           "Google Dialogflow Chatbots - Free"
         ]
       },
@@ -619,7 +619,7 @@ const ServiceSection = () => {
           "Webhook Limit - 5"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbots - Free"
         ]
       },
@@ -659,7 +659,7 @@ const ServiceSection = () => {
           "Integration Marketplace",
           "Round Robin Assignment",
           "Automated Follow Ups",
-         
+
         ],
         limit: [
           "Team Members - Unlimited",
@@ -670,7 +670,7 @@ const ServiceSection = () => {
           "Webhook Limit - Unlimited"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbots - Free"
         ]
       },
@@ -723,7 +723,7 @@ const ServiceSection = () => {
           "Webhook Limit - 1"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 1",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbots - Free"
         ]
       },
@@ -763,7 +763,7 @@ const ServiceSection = () => {
           "Max Contacts Import - 10000"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 1",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - No"
         ]
       },
@@ -808,7 +808,7 @@ const ServiceSection = () => {
           "Max Contacts Import - 50000"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - Free"
         ]
       },
@@ -854,7 +854,7 @@ const ServiceSection = () => {
           "Max Contacts Import - 100000"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbots - Free"
         ]
       },
@@ -905,7 +905,7 @@ const ServiceSection = () => {
           "Webhook Limit - 5"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbots - Free",
         ]
       },
@@ -945,7 +945,7 @@ const ServiceSection = () => {
           "Integration Marketplace",
           "Round Robin Assignment",
           "Automated Follow Ups",
-      
+
         ],
         limit: [
           "Team Members - Unlimited",
@@ -956,7 +956,7 @@ const ServiceSection = () => {
           "Webhook Limit - Unlimited"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbots - Free"
         ]
       },
@@ -1009,7 +1009,7 @@ const ServiceSection = () => {
           "Webhook Limit - 1"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 1",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbots - Free",
         ]
       },
@@ -1049,7 +1049,7 @@ const ServiceSection = () => {
           "Max Contacts Import - 10000"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 1",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - No"
         ]
       },
@@ -1094,7 +1094,7 @@ const ServiceSection = () => {
           "Max Contacts Import - 50000"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - Free"
         ]
       },
@@ -1140,7 +1140,7 @@ const ServiceSection = () => {
           "Max Contacts Import - 100000"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - Free"
         ]
       },
@@ -1191,7 +1191,7 @@ const ServiceSection = () => {
           "Webhook Limit - 5"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - Free"
         ]
       },
@@ -1231,7 +1231,7 @@ const ServiceSection = () => {
           "Integration Marketplace",
           "Round Robin Assignment",
           "Automated Follow Ups",
-        
+
         ],
         limit: [
           "Team Members - Unlimited",
@@ -1242,7 +1242,7 @@ const ServiceSection = () => {
           "Webhook Limit - Unlimited"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - Free"
         ]
       },
@@ -1295,7 +1295,7 @@ const ServiceSection = () => {
           "Webhook Limit - 1"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 1",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - Free"
         ]
       },
@@ -1335,7 +1335,7 @@ const ServiceSection = () => {
           "Max Contacts Import - 10000"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 1",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - No"
         ]
       },
@@ -1380,7 +1380,7 @@ const ServiceSection = () => {
           "Max Contacts Import - 50000"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - Free"
         ]
       },
@@ -1426,7 +1426,7 @@ const ServiceSection = () => {
           "Max Contacts Import - 100000"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - Free"
         ]
       },
@@ -1477,7 +1477,7 @@ const ServiceSection = () => {
           "Webhook Limit - 5"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - Free"
         ]
       },
@@ -1528,7 +1528,7 @@ const ServiceSection = () => {
           "Webhook Limit - Unlimited"
         ],
         chatbots: [
-          "Catalogue + Flow Builder - 5",
+          "Catalogue + Flow Builder - ₹2999",
           "Google Dialogflow Chatbot - Free"
         ]
       },
@@ -3237,11 +3237,11 @@ px-4 sm:px-6 overflow-hidden">
                           <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
                           <span className="text-black/60 flex items-start gap-1.5">
                             <span className="mt-[2px]">{limit}</span>
-                         {["Ultimate Plan", "Pro Plan"].includes(plan.name) && limit.includes("Unlimited") && (
-  <span title={unlimitedTooltipMap[limit] || ""} className="cursor-pointer text-gray-500 hover:text-gray-800 shrink-0 mt-[4px]">
-    <Info size={14} />
-  </span>
-)}
+                            {["Ultimate Plan", "Pro Plan"].includes(plan.name) && limit.includes("Unlimited") && (
+                              <span title={unlimitedTooltipMap[limit] || ""} className="cursor-pointer text-gray-500 hover:text-gray-800 shrink-0 mt-[4px]">
+                                <Info size={14} />
+                              </span>
+                            )}
 
                           </span>
                         </li>
@@ -3263,7 +3263,7 @@ px-4 sm:px-6 overflow-hidden">
                                 <span className="inline">
                                   {limit}
                                   {isFree && (
-                                    <span title="For creation charged ₹4999" className="inline-block align-middle ml-1 cursor-pointer text-green-600 hover:text-green-800 shrink-0">
+                                    <span title="For Chatbot Creation charge ₹4999" className="inline-block align-middle ml-1 cursor-pointer text-green-600 hover:text-green-800 shrink-0">
                                       <Info size={14} />
                                     </span>
                                   )}
@@ -3284,7 +3284,7 @@ px-4 sm:px-6 overflow-hidden">
                     <ul className="mt-3 space-y-2 text-[11px] leading-relaxed">
                       {plan.chatbots.filter(limit => !limit.includes("Google Dialogflow")).map((limit, i) => {
                         const isFlowBuilder = limit.includes("Catalogue + Flow Builder");
-                        const tooltipText = plan.name === "Free Plan" ? "Extra Flow - Upgrade plan" : "Extra Flow - Additional Price";
+                        const tooltipText = plan.name === "Free Plan" ? "it includes 1 flow\nExtra Flow - Upgrade plan" : "it includes 5 flow\nExtra Flow - Additional Price";
                         return (
                           <li key={i} className="flex gap-2">
                             <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
