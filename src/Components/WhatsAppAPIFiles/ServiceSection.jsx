@@ -3287,7 +3287,18 @@ px-4 sm:px-6 overflow-hidden">
                   <div className="w-full h-[1px] bg-black/10 my-4"></div>
 
                   <div className="">
-                    <h4 className="inline-block font-bold text-violet-700 bg-violet-100 border border-violet-200 px-2.5 py-1 rounded-md text-xs shadow-sm mb-1">✦ Add-ons</h4>
+                    <div className="flex items-center gap-2 mb-1">
+                      <h4 className="inline-block font-bold text-violet-700 bg-violet-100 border border-violet-200 px-2.5 py-1 rounded-md text-xs shadow-sm">✦ Add-ons</h4>
+                      {plan.name !== "Free Plan" && (
+                        <span className="group/addonsTooltip relative inline-block cursor-pointer text-violet-500 hover:text-violet-700 shrink-0 hover:z-[9999]">
+                          <Info size={14} />
+                          <div className="hidden group-hover/addonsTooltip:block absolute left-1/2 -translate-x-1/2 bottom-full mb-2 w-max max-w-[180px] p-2.5 bg-violet-600 text-white text-[11px] leading-relaxed rounded-lg shadow-xl z-[9999] pointer-events-none text-center font-medium border border-violet-500">
+                            All Add-ons Prices are Monthly Prices, to purchase Annual Add-ons and to get offer in it, consult your RM or WhatsApp us on +919031011559
+                            <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-violet-600"></div>
+                          </div>
+                        </span>
+                      )}
+                    </div>
 
                     <ul className="mt-3 space-y-2 text-[11px] leading-relaxed">
                       {plan.chatbots.filter(limit => !limit.includes("Google Dialogflow")).map((limit, i) => {
@@ -3341,8 +3352,8 @@ px-4 sm:px-6 overflow-hidden">
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
                         <span className="text-black/60">
-                          {plan.name === "Ultimate Plan" 
-                            ? "Google Sheet Integration - Free" 
+                          {plan.name === "Ultimate Plan"
+                            ? "Google Sheet Integration - Free"
                             : "Google Sheet Integration (₹999 charged separately)"}
                         </span>
                       </li>
@@ -3567,7 +3578,18 @@ px-4 sm:px-6 overflow-hidden">
                   <div className="w-full h-[1px] bg-black/10 my-4"></div>
 
                   <div className="">
-                    <h4 className="inline-block font-bold text-violet-700 bg-violet-100 border border-violet-200 px-2.5 py-1 rounded-md text-xs shadow-sm mb-1">✦ Add-ons</h4>
+                    <div className="flex items-center gap-2 mb-1">
+                      <h4 className="inline-block font-bold text-violet-700 bg-violet-100 border border-violet-200 px-2.5 py-1 rounded-md text-xs shadow-sm">✦ Add-ons</h4>
+                      {plan.name !== "Free Plan" && (
+                        <span className="group/addonsTooltip relative inline-block cursor-pointer text-violet-500 hover:text-violet-700 shrink-0 hover:z-[9999]">
+                          <Info size={14} />
+                          <div className="hidden group-hover/addonsTooltip:block absolute left-1/2 -translate-x-1/2 bottom-full mb-2 w-max max-w-[180px] p-2.5 bg-violet-600 text-white text-[11px] leading-relaxed rounded-lg shadow-xl z-[9999] pointer-events-none text-center font-medium border border-violet-500">
+                            All Add-ons Prices are Monthly Prices, to purchase Annual Add-ons and to get offer in it, consult your RM or WhatsApp us on +919031011559
+                            <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-violet-600"></div>
+                          </div>
+                        </span>
+                      )}
+                    </div>
 
                     <ul className="mt-3 space-y-2 text-[11px] leading-relaxed">
                       {plan.chatbots.filter(limit => !limit.includes("Google Dialogflow")).map((limit, i) => {
@@ -3621,8 +3643,8 @@ px-4 sm:px-6 overflow-hidden">
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
                         <span className="text-black/60">
-                          {plan.name === "Ultimate Plan" 
-                            ? "Google Sheet Integration - Free" 
+                          {plan.name === "Ultimate Plan"
+                            ? "Google Sheet Integration - Free"
                             : "Google Sheet Integration (₹999 charged separately)"}
                         </span>
                       </li>
