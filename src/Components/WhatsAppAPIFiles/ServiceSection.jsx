@@ -3103,8 +3103,8 @@ px-4 sm:px-6 overflow-hidden">
               <div
                 key={idx}
                 className="
-    group rounded-3xl  backdrop-blur-xl 
-     hover:shadow-[0_0_25px_rgba(16,185,129,0.4)]
+    group relative rounded-3xl backdrop-blur-xl 
+     hover:shadow-[0_0_25px_rgba(16,185,129,0.4)] hover:z-50
     transition-all duration-500 
   "
               >
@@ -3261,7 +3261,15 @@ px-4 sm:px-6 overflow-hidden">
                               <li key={`gd-${i}`} className={`flex items-start gap-2 px-2 py-1.5 rounded-md  font-semibold text-gray-600`}>
                                 <span className={`w-2 h-2 rounded-full shrink-0 mt-[5px] ${isFree ? "bg-green-500" : "bg-black/40"}`}></span>
                                 <span className="inline">
-                                  {limit}
+                                  {limit.split(/(free)/i).map((part, index) =>
+                                    part.toLowerCase() === 'free' ? (
+                                      <span key={index} className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-2.5 py-[2px] rounded-full text-[10px] font-black uppercase tracking-widest shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 relative -top-[1px] inline-block">
+                                        {part}
+                                      </span>
+                                    ) : (
+                                      part
+                                    )
+                                  )}
                                   {isFree && (
                                     <span title="For Chatbot Creation charge ₹4999" className="inline-block align-middle ml-1 cursor-pointer text-green-600 hover:text-green-800 shrink-0">
                                       <Info size={14} />
@@ -3284,15 +3292,21 @@ px-4 sm:px-6 overflow-hidden">
                     <ul className="mt-3 space-y-2 text-[11px] leading-relaxed">
                       {plan.chatbots.filter(limit => !limit.includes("Google Dialogflow")).map((limit, i) => {
                         const isFlowBuilder = limit.includes("Catalogue + Flow Builder");
-                        const tooltipText = plan.name === "Free Plan" ? "it includes 1 flow\nExtra Flow - Upgrade plan" : "it includes 5 flow\nExtra Flow - Additional Price";
+                        const tooltipText = plan.name === "Free Plan" ? "it includes 1 flow\nExtra Flow - Upgrade plan" : "It includes 5 Flows Only, if you want more flows for multiple products chatbot, then it comes with additional Charges.";
                         return (
                           <li key={i} className="flex gap-2">
                             <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
                             <span className="text-black/60 inline">
                               {limit}
                               {isFlowBuilder && (
-                                <span title={tooltipText} className="inline-block align-middle ml-1 cursor-pointer text-gray-500 hover:text-gray-800 shrink-0">
+                                <span className="group/tooltip relative inline-block align-middle ml-1 cursor-pointer text-gray-500 hover:text-gray-800 shrink-0 hover:z-[9999]">
                                   <Info size={14} />
+                                  <div className="hidden group-hover/tooltip:block absolute left-1/2 -translate-x-1/2 bottom-full mb-2 w-max max-w-[220px] p-2.5 bg-gray-900 text-white text-[11px] leading-relaxed rounded-lg shadow-xl z-[9999] pointer-events-none text-center font-medium border border-gray-700">
+                                    {tooltipText.split('\n').map((line, idx) => (
+                                      <div key={idx} className={idx > 0 ? "mt-1" : ""}>{line}</div>
+                                    ))}
+                                    <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-gray-900"></div>
+                                  </div>
                                 </span>
                               )}
                             </span>
@@ -3302,19 +3316,35 @@ px-4 sm:px-6 overflow-hidden">
 
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">WhatsApp Payment</span>
+                        <span className="text-black/60">
+                          WhatsApp Payment
+                          {["Basic Plan", "Standard Plan", "Pro Plan", "Ultimate Plan"].includes(plan.name) && " - Free"}
+                          {plan.name === "Saving Plan" && " - ₹499"}
+                        </span>
                       </li>
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">WhatsApp Flow</span>
+                        <span className="text-black/60">
+                          WhatsApp Flow
+                          {["Standard Plan", "Pro Plan", "Ultimate Plan"].includes(plan.name) && " - Free"}
+                          {["Saving Plan", "Basic Plan"].includes(plan.name) && " - ₹499"}
+                        </span>
                       </li>
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">Ecommerce (Shopify and WooCommerce)</span>
+                        <span className="text-black/60">
+                          Ecommerce (Shopify or WooCommerce)
+                          {["Pro Plan", "Ultimate Plan"].includes(plan.name) && " - Free"}
+                          {["Saving Plan", "Basic Plan", "Standard Plan"].includes(plan.name) && " - ₹499"}
+                        </span>
                       </li>
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60"> Google Sheet Integration (₹999 charged separately)</span>
+                        <span className="text-black/60">
+                          {plan.name === "Ultimate Plan" 
+                            ? "Google Sheet Integration - Free" 
+                            : "Google Sheet Integration (₹999 charged separately)"}
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -3376,8 +3406,8 @@ px-4 sm:px-6 overflow-hidden">
               <div
                 key={idx}
                 className="
-    group rounded-3xl backdrop-blur-xl 
-   hover:shadow-[0_0_25px_rgba(16,185,129,0.4)]
+    group relative rounded-3xl backdrop-blur-xl 
+   hover:shadow-[0_0_25px_rgba(16,185,129,0.4)] hover:z-50
     transition-all duration-500 
   "
               >
@@ -3511,7 +3541,15 @@ px-4 sm:px-6 overflow-hidden">
                               <li key={`gd-${i}`} className={`flex items-start gap-2 px-2 py-1.5 rounded-md border font-semibold ${isFree ? "bg-green-50 text-green-700 border-green-200" : "bg-white/60 text-black/60 border-black/10"}`}>
                                 <span className={`w-2 h-2 rounded-full shrink-0 mt-[5px] ${isFree ? "bg-green-500" : "bg-black/40"}`}></span>
                                 <span className="inline">
-                                  {limit}
+                                  {limit.split(/(free)/i).map((part, index) =>
+                                    part.toLowerCase() === 'free' ? (
+                                      <span key={index} className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-2.5 py-[2px] rounded-full text-[10px] font-black uppercase tracking-widest shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 relative -top-[1px] inline-block">
+                                        {part}
+                                      </span>
+                                    ) : (
+                                      part
+                                    )
+                                  )}
                                   {isFree && (
                                     <span title="For creation charged ₹4999" className="inline-block align-middle ml-1 cursor-pointer text-green-600 hover:text-green-800 shrink-0">
                                       <Info size={14} />
@@ -3534,15 +3572,21 @@ px-4 sm:px-6 overflow-hidden">
                     <ul className="mt-3 space-y-2 text-[11px] leading-relaxed">
                       {plan.chatbots.filter(limit => !limit.includes("Google Dialogflow")).map((limit, i) => {
                         const isFlowBuilder = limit.includes("Catalogue + Flow Builder");
-                        const tooltipText = plan.name === "Free Plan" ? "Extra Flow - Upgrade plan" : "Extra Flow - Additional Price";
+                        const tooltipText = plan.name === "Free Plan" ? "Extra Flow - Upgrade plan" : "It includes 5 Flows Only, if you want more flows for multiple products chatbot, then it comes with additional Charges.";
                         return (
                           <li key={i} className="flex gap-2">
                             <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
                             <span className="text-black/60 inline">
                               {limit}
                               {isFlowBuilder && (
-                                <span title={tooltipText} className="inline-block align-middle ml-1 cursor-pointer text-gray-500 hover:text-gray-800 shrink-0">
+                                <span className="group/tooltip relative inline-block align-middle ml-1 cursor-pointer text-gray-500 hover:text-gray-800 shrink-0 hover:z-[9999]">
                                   <Info size={14} />
+                                  <div className="hidden group-hover/tooltip:block absolute left-1/2 -translate-x-1/2 bottom-full mb-2 w-max max-w-[220px] p-2.5 bg-gray-900 text-white text-[11px] leading-relaxed rounded-lg shadow-xl z-[9999] pointer-events-none text-center font-medium border border-gray-700">
+                                    {tooltipText.split('\n').map((line, idx) => (
+                                      <div key={idx} className={idx > 0 ? "mt-1" : ""}>{line}</div>
+                                    ))}
+                                    <div className="absolute top-full left-1/2 -translate-x-1/2 border-[6px] border-transparent border-t-gray-900"></div>
+                                  </div>
                                 </span>
                               )}
                             </span>
@@ -3552,19 +3596,35 @@ px-4 sm:px-6 overflow-hidden">
 
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">WhatsApp Payment</span>
+                        <span className="text-black/60">
+                          WhatsApp Payment
+                          {["Basic Plan", "Standard Plan", "Pro Plan", "Ultimate Plan"].includes(plan.name) && " - Free"}
+                          {plan.name === "Saving Plan" && " - ₹499"}
+                        </span>
                       </li>
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">WhatsApp Flow</span>
+                        <span className="text-black/60">
+                          WhatsApp Flow
+                          {["Standard Plan", "Pro Plan", "Ultimate Plan"].includes(plan.name) && " - Free"}
+                          {["Saving Plan", "Basic Plan"].includes(plan.name) && " - ₹499"}
+                        </span>
                       </li>
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">Ecommerce (Shopify and WooCommerce)</span>
+                        <span className="text-black/60">
+                          Ecommerce (Shopify or WooCommerce)
+                          {["Pro Plan", "Ultimate Plan"].includes(plan.name) && " - Free"}
+                          {["Saving Plan", "Basic Plan", "Standard Plan"].includes(plan.name) && " - ₹499"}
+                        </span>
                       </li>
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60"> Google Sheet Integration (₹999 charged separately)</span>
+                        <span className="text-black/60">
+                          {plan.name === "Ultimate Plan" 
+                            ? "Google Sheet Integration - Free" 
+                            : "Google Sheet Integration (₹999 charged separately)"}
+                        </span>
                       </li>
                     </ul>
                   </div>
