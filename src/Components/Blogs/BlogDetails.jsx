@@ -56,10 +56,19 @@ import whatsapp51 from "../../assets/Images/whatsapp51.jpeg";
 import whatsapp52 from "../../assets/Images/whatsapp52.jpeg";
 import whatsapp53 from "../../assets/Images/whatsapp53.jpeg";
 import whatsapp54 from "../../assets/Images/whatsapp54.jpeg";
+import whatsapp55 from "../../assets/Images/whatsapp55.jpg";
 
 const BlogDetails = () => {
 
   const blogs = [
+     {
+      id: 55,
+      title: " WhatsApp Business Web QR Code Guide: How to Scan & Use It",
+      date: "August 24, 2026",
+      image: whatsapp55,
+      link: "/blog/whatsapp-business-web-qr-code-guide"
+    },
+
 
      {
       id: 54,
