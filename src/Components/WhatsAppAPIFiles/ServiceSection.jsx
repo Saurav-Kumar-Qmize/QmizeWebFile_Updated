@@ -469,6 +469,7 @@ const ServiceSection = () => {
           "Multi Agent Chat",
           "Template Library Access",
           "Greeting Message",
+          "Developer API",
           "Create Message Template",
         ],
         limit: [
@@ -752,6 +753,7 @@ const ServiceSection = () => {
           "Multi Agent Chat",
           "Template Library Access",
           "Greeting Message",
+          "Developer API",
           "Create Message Template",
 
         ],
@@ -1039,6 +1041,7 @@ const ServiceSection = () => {
           "Template Library Access",
           "Create Message Template",
           "Greeting Message",
+          "Developer API",
 
         ],
         limit: [
@@ -1325,6 +1328,7 @@ const ServiceSection = () => {
           "Template Library Access",
           "Create Message Template",
           "Greeting Message",
+          "Developer API",
 
         ],
         limit: [
@@ -1611,6 +1615,7 @@ const ServiceSection = () => {
           "Multi Agent Chat",
           "Template Library Access",
           "Create Message Template",
+          "Developer API",
           "Google Sheet Integration ($15 charged separately)",
         ],
         limit: [
@@ -1874,6 +1879,7 @@ const ServiceSection = () => {
           { name: "Authentication", price: "$0.115" }
         ],
         features: [
+          "Developer API",
           "Free Waba Access",
           "Advanced Analytics",
           "Broadcasting",
@@ -2152,6 +2158,7 @@ const ServiceSection = () => {
           { name: "Authentication", price: "$0.115" }
         ],
         features: [
+          "Developer API",
           "Free Waba Access",
           "Advanced Analytics",
           "Broadcasting",
@@ -2430,6 +2437,7 @@ const ServiceSection = () => {
           { name: "Authentication", price: "$0.115" }
         ],
         features: [
+          "Developer API",
           "Free Waba Access",
           "Advanced Analytics",
           "Broadcasting",
@@ -3257,22 +3265,46 @@ px-4 sm:px-6 overflow-hidden">
                         <ul className="space-y-2 text-[11px] leading-relaxed">
                           {plan.chatbots.filter(limit => limit.includes("Google Dialogflow")).map((limit, i) => {
                             const isFree = limit.toLowerCase().includes("free");
+                            const isSavingPlan = plan.name === "Saving Plan";
+                            const isFreePlan = plan.name === "Free Plan";
                             return (
                               <li key={`gd-${i}`} className={`flex items-start gap-2 px-2 py-1.5 rounded-md  font-semibold text-gray-600`}>
                                 <span className={`w-2 h-2 rounded-full shrink-0 mt-[5px] ${isFree ? "bg-green-500" : "bg-black/40"}`}></span>
                                 <span className="inline">
                                   {limit.split(/(free)/i).map((part, index) =>
                                     part.toLowerCase() === 'free' ? (
-                                      <span key={index} className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-2.5 py-[2px] rounded-full text-[10px] font-black uppercase tracking-widest shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 relative -top-[1px] inline-block">
+                                      <span key={index} className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-1 py-0 rounded-full text-[9px] font-bold uppercase tracking-wider shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 relative -top-[1px] inline-block">
                                         {part}
                                       </span>
                                     ) : (
                                       part
                                     )
                                   )}
-                                  {isFree && (
-                                    <span title="For Chatbot Creation charge ₹4999" className="inline-block align-middle ml-1 cursor-pointer text-green-600 hover:text-green-800 shrink-0">
-                                      <Info size={14} />
+                                  {isFree && !isSavingPlan && !isFreePlan && (
+                                    <span className="relative inline-block align-middle ml-1 shrink-0 z-10">
+                                      <Info size={14} className="peer cursor-pointer text-green-600 hover:text-green-800" />
+                                      <div className="absolute bottom-[120%] left-1/2 -translate-x-1/2 mb-2 hidden peer-hover:block hover:block w-[280px] p-3 bg-white text-gray-700 text-[11px] font-normal leading-relaxed rounded-lg shadow-xl border border-gray-200 z-50 whitespace-normal">
+                                        Only pay for Chatbot creation up to 10 Flows just in <span className='font-bold text-black'>4999 + GST ( One Time Cost )</span><br /><br />
+                                        Note : - Purchase an <span className='font-bold text-black'>Annual Plan</span> and get <span className='font-bold text-black'>Google Dialogue Flow Chatbot</span> <span className="text-green-600 font-bold">FREE</span> of cost and Its <span className='font-bold text-black'>Chatbot Creation Charge</span> <span className="text-green-600 font-bold">Waved Off</span>.
+                                      </div>
+                                    </span>
+                                  )}
+                                  {isFreePlan && (
+                                    <span className="relative inline-block align-middle ml-1 shrink-0 z-10">
+                                      <Info size={14} className="peer cursor-pointer text-green-600 hover:text-green-800" />
+                                      <div className="absolute bottom-[120%] left-1/2 -translate-x-1/2 mb-2 hidden peer-hover:block hover:block w-[280px] p-3 bg-white text-gray-700 text-[11px] font-normal leading-relaxed rounded-lg shadow-xl border border-gray-200 z-50 whitespace-normal">
+                                        Create your Chatbot flows from<span className='font-bold text-black'>{"   "}Google Dialogue Flow portal{"   "}</span> and upload the chatbot file and test your chatbot responses. If you want us to help with the Chatbot flows creation, we can create few flows for your testing.<br /><br />
+                                        If you want to unlock full feature of<span className='font-bold text-black'> WABA</span>  (WhatsApp Business API);<span className='font-bold text-black'> Purchase any plan ! </span>
+                                      </div>
+                                    </span>
+                                  )}
+                                  {isSavingPlan && (
+                                    <span className="relative inline-block align-middle ml-1 shrink-0 z-10">
+                                      <Info size={14} className="peer cursor-pointer text-gray-500 hover:text-gray-800" />
+                                      <div className="absolute bottom-[120%] left-1/2 -translate-x-1/2 mb-2 hidden peer-hover:block hover:block w-56 p-3 bg-white text-gray-700 text-[11px] font-normal leading-relaxed rounded-lg shadow-xl border border-gray-200 z-50">
+                                        Purchase<span className='font-bold text-black'>{"  "}Annual Saving Plan{"  "}</span> and get <span className='font-bold text-black'>{"  "}Google Dialogue Flow Chatbot{"  "}</span> <span className="text-green-600 font-bold">FREE</span> of cost.<br /><br />
+                                        Only pay for Chatbot creation up to 10 Flows just in<span className='font-bold text-black'> 4999 + GST ( One Time Cost )</span>
+                                      </div>
                                     </span>
                                   )}
                                 </span>
@@ -3303,12 +3335,22 @@ px-4 sm:px-6 overflow-hidden">
                     <ul className="mt-3 space-y-2 text-[11px] leading-relaxed">
                       {plan.chatbots.filter(limit => !limit.includes("Google Dialogflow")).map((limit, i) => {
                         const isFlowBuilder = limit.includes("Catalogue + Flow Builder");
+                        const hasPricing = limit.includes("₹");
+                        const displayLimit = hasPricing ? limit.replace(/₹\d+/, match => `${match}/Month`) : limit;
                         const tooltipText = plan.name === "Free Plan" ? "it includes 1 flow\nExtra Flow - Upgrade plan" : "It includes 5 Flows Only, if you want more flows for multiple products chatbot, then it comes with additional Charges.";
                         return (
                           <li key={i} className="flex gap-2">
                             <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                            <span className="text-black/60 inline">
-                              {limit}
+                            <span className="text-black/60 inline-flex items-center flex-wrap">
+                              {displayLimit.split(/(free)/i).map((part, index) =>
+                                part.toLowerCase() === 'free' ? (
+                                  <span key={index} className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-1 py-0 rounded-full text-[9px] font-bold uppercase tracking-wider shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 mx-1 inline-block">
+                                    {part}
+                                  </span>
+                                ) : (
+                                  part
+                                )
+                              )}
                               {isFlowBuilder && (
                                 <span className="group/tooltip relative inline-block align-middle ml-1 cursor-pointer text-gray-500 hover:text-gray-800 shrink-0 hover:z-[9999]">
                                   <Info size={14} />
@@ -3327,37 +3369,50 @@ px-4 sm:px-6 overflow-hidden">
 
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">
+                        <span className="text-black/60 inline-flex items-center flex-wrap">
                           WhatsApp Payment
-                          {["Basic Plan", "Standard Plan", "Pro Plan", "Ultimate Plan"].includes(plan.name) && " - Free"}
-                          {plan.name === "Saving Plan" && " - ₹499"}
+                          {["Basic Plan", "Standard Plan", "Pro Plan", "Ultimate Plan"].includes(plan.name) && (
+                            <> - <span className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-1 py-0 rounded-full text-[9px] font-bold uppercase tracking-wider shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 inline-block">FREE</span></>
+                          )}
+                          {plan.name === "Saving Plan" && " - ₹499/Month"}
                         </span>
                       </li>
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">
+                        <span className="text-black/60 inline-flex items-center flex-wrap">
                           WhatsApp Flow
-                          {["Standard Plan", "Pro Plan", "Ultimate Plan"].includes(plan.name) && " - Free"}
-                          {["Saving Plan", "Basic Plan"].includes(plan.name) && " - ₹499"}
+                          {["Standard Plan", "Pro Plan", "Ultimate Plan"].includes(plan.name) && (
+                            <> - <span className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-1 py-0 rounded-full text-[9px] font-bold uppercase tracking-wider shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 inline-block">FREE</span></>
+                          )}
+                          {["Saving Plan", "Basic Plan"].includes(plan.name) && " - ₹499/Month"}
                         </span>
                       </li>
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">
+                        <span className="text-black/60 inline-flex items-center flex-wrap">
                           Ecommerce (Shopify or WooCommerce)
-                          {["Pro Plan", "Ultimate Plan"].includes(plan.name) && " - Free"}
-                          {["Saving Plan", "Basic Plan", "Standard Plan"].includes(plan.name) && " - ₹499"}
+                          {["Pro Plan", "Ultimate Plan"].includes(plan.name) && (
+                            <> - <span className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-1 py-0 rounded-full text-[9px] font-bold uppercase tracking-wider shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 inline-block">FREE</span></>
+                          )}
+                          {["Saving Plan", "Basic Plan", "Standard Plan"].includes(plan.name) && " - ₹499/Month"}
                         </span>
                       </li>
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">
-                          {plan.name === "Ultimate Plan"
-                            ? "Google Sheet Integration - Free"
-                            : "Google Sheet Integration (₹999 charged separately)"}
+                        <span className="text-black/60 inline-flex items-center flex-wrap">
+                          {plan.name === "Ultimate Plan" ? (
+                            <>Google Sheet Integration - <span className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-1 py-0 rounded-full text-[9px] font-bold uppercase tracking-wider shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 inline-block">FREE</span></>
+                          ) : (
+                            "Google Sheet Integration (₹999/Month)"
+                          )}
                         </span>
                       </li>
                     </ul>
+                    {plan.name !== "Free Plan" && (
+                      <div className="mt-4 text-[10px] text-gray-500 font-medium italic bg-gray-50 p-2 rounded-md border border-gray-100">
+                        * Note: For Annual Price of Add-ons consult your RM or WhatsApp us on +91 9031011559
+                      </div>
+                    )}
                   </div>
                   <div className="w-full h-[1px] bg-black/10 my-4"></div>
 
@@ -3548,22 +3603,46 @@ px-4 sm:px-6 overflow-hidden">
                         <ul className="space-y-2 text-[11px] leading-relaxed">
                           {plan.chatbots.filter(limit => limit.includes("Google Dialogflow")).map((limit, i) => {
                             const isFree = limit.toLowerCase().includes("free");
+                            const isSavingPlan = plan.name === "Saving Plan";
+                            const isFreePlan = plan.name === "Free Plan";
                             return (
                               <li key={`gd-${i}`} className={`flex items-start gap-2 px-2 py-1.5 rounded-md border font-semibold ${isFree ? "bg-green-50 text-green-700 border-green-200" : "bg-white/60 text-black/60 border-black/10"}`}>
                                 <span className={`w-2 h-2 rounded-full shrink-0 mt-[5px] ${isFree ? "bg-green-500" : "bg-black/40"}`}></span>
                                 <span className="inline">
                                   {limit.split(/(free)/i).map((part, index) =>
                                     part.toLowerCase() === 'free' ? (
-                                      <span key={index} className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-2.5 py-[2px] rounded-full text-[10px] font-black uppercase tracking-widest shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 relative -top-[1px] inline-block">
+                                      <span key={index} className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-1 py-0 rounded-full text-[9px] font-bold uppercase tracking-wider shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 relative -top-[1px] inline-block">
                                         {part}
                                       </span>
                                     ) : (
                                       part
                                     )
                                   )}
-                                  {isFree && (
-                                    <span title="For creation charged ₹4999" className="inline-block align-middle ml-1 cursor-pointer text-green-600 hover:text-green-800 shrink-0">
-                                      <Info size={14} />
+                                  {isFree && !isSavingPlan && !isFreePlan && (
+                                    <span className="relative inline-block align-middle ml-1 shrink-0 z-10">
+                                      <Info size={14} className="peer cursor-pointer text-green-600 hover:text-green-800" />
+                                      <div className="absolute bottom-[120%] left-1/2 -translate-x-1/2 mb-2 hidden peer-hover:block hover:block w-[280px] p-3 bg-white text-gray-700 text-[11px] font-normal leading-relaxed rounded-lg shadow-xl border border-gray-200 z-50 whitespace-normal">
+                                        -Only pay for Chatbot creation up to 10 Flows just in 4999 + GST ( One Time Cost )<br /><br />
+                                        Note : - Purchase an Annual Plan and get Google Dialogue Flow Chatbot <span className="text-green-600 font-bold">FREE</span> of cost and Its Chatbot Creation Charge <span className="text-green-600 font-bold">Waved Off</span>.
+                                      </div>
+                                    </span>
+                                  )}
+                                  {isFreePlan && (
+                                    <span className="relative inline-block align-middle ml-1 shrink-0 z-10">
+                                      <Info size={14} className="peer cursor-pointer text-green-600 hover:text-green-800" />
+                                      <div className="absolute bottom-[120%] left-1/2 -translate-x-1/2 mb-2 hidden peer-hover:block hover:block w-[280px] p-3 bg-white text-gray-700 text-[11px] font-normal leading-relaxed rounded-lg shadow-xl border border-gray-200 z-50 whitespace-normal">
+                                        Create your Chatbot flows from <span className='font-bold text-black'>{"  "}Google Dialogue Flow portal{"  "} </span> and upload the chatbot file and test your chatbot responses. If you want us to help with the Chatbot flows creation, we can create few flows for your testing.<br /><br />
+                                        If you want to unlock full feature of <span className='font-bold text-black'>WABA </span>(WhatsApp Business API); <span className='font-bold text-black'>Purchase any plan ! </span>
+                                      </div>
+                                    </span>
+                                  )}
+                                  {isSavingPlan && (
+                                    <span className="relative inline-block align-middle ml-1 shrink-0 z-10">
+                                      <Info size={14} className="peer cursor-pointer text-gray-500 hover:text-gray-800" />
+                                      <div className="absolute bottom-[120%] left-1/2 -translate-x-1/2 mb-2 hidden peer-hover:block hover:block w-56 p-3 bg-white text-gray-700 text-[11px] font-normal leading-relaxed rounded-lg shadow-xl border border-gray-200 z-50">
+                                        Purchase<span className='font-bold text-black'>{"  "}Annual Saving Plan{"  "}</span> and get <span className='font-bold text-black'>{"  "}Google Dialogue Flow Chatbot{"  "}</span> <span className="text-green-600 font-bold">FREE</span> of cost.<br /><br />
+                                        Only pay for Chatbot creation up to 10 Flows just in<span className='font-bold text-black'> 4999 + GST ( One Time Cost )</span>
+                                      </div>
                                     </span>
                                   )}
                                 </span>
@@ -3594,12 +3673,22 @@ px-4 sm:px-6 overflow-hidden">
                     <ul className="mt-3 space-y-2 text-[11px] leading-relaxed">
                       {plan.chatbots.filter(limit => !limit.includes("Google Dialogflow")).map((limit, i) => {
                         const isFlowBuilder = limit.includes("Catalogue + Flow Builder");
+                        const hasPricing = limit.includes("₹");
+                        const displayLimit = hasPricing ? limit.replace(/₹\d+/, match => `${match}/Month`) : limit;
                         const tooltipText = plan.name === "Free Plan" ? "Extra Flow - Upgrade plan" : "It includes 5 Flows Only, if you want more flows for multiple products chatbot, then it comes with additional Charges.";
                         return (
                           <li key={i} className="flex gap-2">
                             <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                            <span className="text-black/60 inline">
-                              {limit}
+                            <span className="text-black/60 inline-flex items-center flex-wrap">
+                              {displayLimit.split(/(free)/i).map((part, index) =>
+                                part.toLowerCase() === 'free' ? (
+                                  <span key={index} className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-1 py-0 rounded-full text-[9px] font-bold uppercase tracking-wider shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 mx-1 inline-block">
+                                    {part}
+                                  </span>
+                                ) : (
+                                  part
+                                )
+                              )}
                               {isFlowBuilder && (
                                 <span className="group/tooltip relative inline-block align-middle ml-1 cursor-pointer text-gray-500 hover:text-gray-800 shrink-0 hover:z-[9999]">
                                   <Info size={14} />
@@ -3618,37 +3707,50 @@ px-4 sm:px-6 overflow-hidden">
 
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">
+                        <span className="text-black/60 inline-flex items-center flex-wrap">
                           WhatsApp Payment
-                          {["Basic Plan", "Standard Plan", "Pro Plan", "Ultimate Plan"].includes(plan.name) && " - Free"}
-                          {plan.name === "Saving Plan" && " - ₹499"}
+                          {["Basic Plan", "Standard Plan", "Pro Plan", "Ultimate Plan"].includes(plan.name) && (
+                            <> - <span className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-1 py-0 rounded-full text-[9px] font-bold uppercase tracking-wider shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 inline-block">FREE</span></>
+                          )}
+                          {plan.name === "Saving Plan" && " - ₹499/Month"}
                         </span>
                       </li>
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">
+                        <span className="text-black/60 inline-flex items-center flex-wrap">
                           WhatsApp Flow
-                          {["Standard Plan", "Pro Plan", "Ultimate Plan"].includes(plan.name) && " - Free"}
-                          {["Saving Plan", "Basic Plan"].includes(plan.name) && " - ₹499"}
+                          {["Standard Plan", "Pro Plan", "Ultimate Plan"].includes(plan.name) && (
+                            <> - <span className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-1 py-0 rounded-full text-[9px] font-bold uppercase tracking-wider shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 inline-block">FREE</span></>
+                          )}
+                          {["Saving Plan", "Basic Plan"].includes(plan.name) && " - ₹499/Month"}
                         </span>
                       </li>
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">
+                        <span className="text-black/60 inline-flex items-center flex-wrap">
                           Ecommerce (Shopify or WooCommerce)
-                          {["Pro Plan", "Ultimate Plan"].includes(plan.name) && " - Free"}
-                          {["Saving Plan", "Basic Plan", "Standard Plan"].includes(plan.name) && " - ₹499"}
+                          {["Pro Plan", "Ultimate Plan"].includes(plan.name) && (
+                            <> - <span className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-1 py-0 rounded-full text-[9px] font-bold uppercase tracking-wider shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 inline-block">FREE</span></>
+                          )}
+                          {["Saving Plan", "Basic Plan", "Standard Plan"].includes(plan.name) && " - ₹499/Month"}
                         </span>
                       </li>
                       <li className="flex gap-2">
                         <span className="w-2 h-2 bg-black/40 rounded-full mt-[6px] shrink-0"></span>
-                        <span className="text-black/60">
-                          {plan.name === "Ultimate Plan"
-                            ? "Google Sheet Integration - Free"
-                            : "Google Sheet Integration (₹999 charged separately)"}
+                        <span className="text-black/60 inline-flex items-center flex-wrap">
+                          {plan.name === "Ultimate Plan" ? (
+                            <>Google Sheet Integration - <span className="bg-gradient-to-r from-emerald-500 to-green-500 text-white px-1 py-0 rounded-full text-[9px] font-bold uppercase tracking-wider shadow-[0_0_10px_rgba(16,185,129,0.4)] border border-emerald-400 ml-1 inline-block">FREE</span></>
+                          ) : (
+                            "Google Sheet Integration (₹999/Month)"
+                          )}
                         </span>
                       </li>
                     </ul>
+                    {plan.name !== "Free Plan" && (
+                      <div className="mt-4 text-[10px] text-gray-500 font-medium italic bg-gray-50 p-2 rounded-md border border-gray-100">
+                        * Note: For Annual Price of Add-ons consult your RM or WhatsApp us on +91 9031011559
+                      </div>
+                    )}
                   </div>
                   <div className="w-full h-[1px] bg-black/10 my-4"></div>
 
