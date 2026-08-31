@@ -11,7 +11,7 @@ import whatischatbot from "../../assets/Images/whatischatbot.jpg";
 import { Helmet } from "react-helmet";
 import christmasImage from "../../assets/Images/christmas_offer_blog.webp";
 import whatsapp55 from "../../assets/Images/whatsapp55.jpg";
-import whatsapp_QRCode from "../../assets/Images/whatsapp_QRCode.jpg";
+import whatsapp_QRCode from "../../assets/Images/whatsapp_QRCode.png";
 
 
 

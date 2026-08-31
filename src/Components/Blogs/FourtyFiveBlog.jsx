@@ -8,7 +8,7 @@ import Navbar1 from "../Common/Navbar1";
 import sideImage from "../../assets/Images/signup-promote-image.webp";
 import whatischatbot from "../../assets/Images/whatischatbot.jpg";
 import { Helmet } from "react-helmet";
-import dialog from "../../assets/Images/360dialog.jpeg";
+import dialog from "../../assets/Images/dialog360.jpeg";
 import aisensy from "../../assets/Images/aisensy.jpeg";
 import christmasImage from "../../assets/Images/christmas_offer_blog.webp";
 import bestwhatsapmarktsoft from "../../assets/Images/bestwhatsapmarktsoftw.jpeg";

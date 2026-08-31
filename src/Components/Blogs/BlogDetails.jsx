@@ -57,11 +57,23 @@ import whatsapp52 from "../../assets/Images/whatsapp52.jpeg";
 import whatsapp53 from "../../assets/Images/whatsapp53.jpeg";
 import whatsapp54 from "../../assets/Images/whatsapp54.jpeg";
 import whatsapp55 from "../../assets/Images/whatsapp55.jpg";
+import whatsapp56 from "../../assets/Images/whatsapp56.jpeg";
 
 const BlogDetails = () => {
 
   const blogs = [
-     {
+
+
+    {
+      id: 56,
+      title: " 10 Best WhatsApp API Platforms for Businesses in 2026 ",
+      date: "August 31, 2026",
+      image: whatsapp56,
+      link: "/blog/best-whatsapp-api-platforms"
+    },
+
+
+    {
       id: 55,
       title: " WhatsApp Business Web QR Code Guide: How to Scan & Use It",
       date: "August 24, 2026",
@@ -70,7 +82,7 @@ const BlogDetails = () => {
     },
 
 
-     {
+    {
       id: 54,
       title: "WhatsApp Chatbot Example: 10 Use Cases for Businesses",
       date: "August 19, 2026",
@@ -95,7 +107,7 @@ const BlogDetails = () => {
     },
 
 
-     {
+    {
       id: 51,
       title: "10+ Best WhatsApp Automation Tools for Businesses in 2026",
       date: "August 04, 2026",
@@ -113,7 +125,7 @@ const BlogDetails = () => {
       link: "/blog/whatsapp-business-messaging/"
     },
 
-      {
+    {
       id: 49,
       title: "WhatsApp vs SMS for Businesses: Which Communication Channel Delivers Better Results in 2026",
       date: "July 28, 2026",
@@ -122,7 +134,7 @@ const BlogDetails = () => {
     },
 
 
-      {
+    {
       id: 48,
       title: "Send WhatsApp Messages for Marketing with 0% Markup Charge: Grow Your Business at Lower Cost",
       date: "July 27, 2026",
@@ -131,15 +143,15 @@ const BlogDetails = () => {
     },
 
 
-     {
+    {
       id: 47,
       title: "The Complete Meta-Certified WhatsApp Business API Provider Checklist for 2026",
       date: "July 24, 2026",
       image: whatsapp47,
       link: "/blog/meta-certified-whatsapp-business-api-provider-checklist"
     },
-    
-     {
+
+    {
       id: 46,
       title: "24/7 Customer Support Without the Staff: How WhatsApp Chatbots Are Transforming Indian SMEs",
       date: "July 23, 2026",
