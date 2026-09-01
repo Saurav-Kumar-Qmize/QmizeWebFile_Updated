@@ -136,30 +136,25 @@ export default function BlogLayout() {
 
             {/* LEFT TOC */}
             <div className="hidden md:block md:col-span-3 sticky top-28 self-start">
-              <div className="rounded-[20px] border border-emerald-200 bg-white/90 shadow-[0_12px_28px_rgba(16,185,129,0.08)] p-4 backdrop-blur-sm">
-                <div className="mb-4 flex items-center gap-3 rounded-xl bg-emerald-50 px-3 py-2 border border-emerald-100">
-                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-600/10 text-lg text-emerald-700">☰</div>
-                  <h3 className="text-xl font-extrabold text-emerald-700 tracking-tight">Table of Contents</h3>
-                </div>
-
+              <div>
+                <h3 className="text-lg font-bold text-emerald-700 mb-4">📑 Table of Contents</h3>
                 <ul className="space-y-3">
                   {toc.map((item) => (
                     <li key={item.id}>
                       <div
                         onClick={() => scrollToSection(item.id)}
-                        className={`group flex cursor-pointer items-start gap-2 rounded-lg px-2 py-1.5 text-[15px] font-medium transition ${activeSection === item.id ? "text-emerald-700 bg-emerald-50" : "text-slate-700 hover:bg-emerald-50/70 hover:text-emerald-700"}`}
+                        className={`cursor-pointer font-medium transition flex items-center ${activeSection === item.id ? "text-emerald-600" : "text-gray-700"}`}
                       >
-                        <span className="mt-1 text-xs text-emerald-600">▶</span>
-                        <span>{item.label}</span>
+                        <span className="mr-2">▸</span>
+                        {item.label}
                       </div>
-
                       {item.children && openMenu === item.id && (
-                        <ul className="ml-6 mt-2 space-y-2 border-l border-emerald-200 pl-4">
+                        <ul className="mt-2 ml-5 space-y-2 border-l-2 border-emerald-200 pl-4">
                           {item.children.map((child) => (
                             <li
                               key={child.id}
                               onClick={() => scrollToSection(child.id)}
-                              className={`cursor-pointer rounded-md px-2 py-1 text-sm transition ${activeSection === child.id ? "text-emerald-700 font-semibold bg-emerald-50" : "text-slate-600 hover:text-emerald-700 hover:bg-emerald-50/60"}`}
+                              className={`cursor-pointer text-sm transition ${activeSection === child.id ? "text-emerald-600 font-semibold" : "text-gray-600"}`}
                             >
                               {child.label}
                             </li>

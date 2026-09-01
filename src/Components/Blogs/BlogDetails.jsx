@@ -58,11 +58,19 @@ import whatsapp53 from "../../assets/Images/whatsapp53.jpeg";
 import whatsapp54 from "../../assets/Images/whatsapp54.jpeg";
 import whatsapp55 from "../../assets/Images/whatsapp55.jpg";
 import whatsapp56 from "../../assets/Images/whatsapp56.jpeg";
+import whatsapp57 from "../../assets/Images/whatsapp57.jpeg";
 
 const BlogDetails = () => {
 
   const blogs = [
-
+    
+     {
+      id: 57,
+      title: " 5 Best WhatsApp Business API Providers in India 2026 ",
+      date: "September 1, 2026",
+      image: whatsapp57,
+      link: "/blog/best-whatsapp-business-api-providers-india"
+    },
 
     {
       id: 56,
